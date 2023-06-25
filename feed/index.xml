@@ -1,0 +1,1170 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Computer Science and Engineering</title>
+	<atom:link href="https://cse.uniqwe.com/feed/" rel="self" type="application/rss+xml" />
+	<link>https://cse.uniqwe.com/</link>
+	<description>Uniqwe</description>
+	<lastBuildDate>Wed, 17 May 2023 03:42:49 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.2.2</generator>
+
+<image>
+	<url>https://cse.uniqwe.com/wp-content/uploads/2023/04/cropped-photo1679071723-32x32.png</url>
+	<title>Computer Science and Engineering</title>
+	<link>https://cse.uniqwe.com/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>What is distributed database systems</title>
+		<link>https://cse.uniqwe.com/what-is-distributed-database-systems/</link>
+		
+		<dc:creator><![CDATA[uniqwe]]></dc:creator>
+		<pubDate>Wed, 17 May 2023 03:40:26 +0000</pubDate>
+				<category><![CDATA[Distributed database systems]]></category>
+		<category><![CDATA[DDBS]]></category>
+		<guid isPermaLink="false">https://cse.uniqwe.com/?p=547</guid>
+
+					<description><![CDATA[<p>Hi there, welcome to our blog where we explain complex topics in simple terms. Today, we&#8217;re going to talk about distributed database systems, or DDBMS for short. If you don&#8217;t know what that is, don&#8217;t worry, We&#8217;ll give you some easy examples to understand. What is Distributed Database Systems First of all, what is a&#8230;&#160;<a href="https://cse.uniqwe.com/what-is-distributed-database-systems/" class="" rel="bookmark">Read More &#187;<span class="screen-reader-text">What is distributed database systems</span></a></p>
+<p>The post <a rel="nofollow" href="https://cse.uniqwe.com/what-is-distributed-database-systems/">What is distributed database systems</a> appeared first on <a rel="nofollow" href="https://cse.uniqwe.com/">Computer Science and Engineering</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[
+<p>Hi there, welcome to our blog where we explain complex topics in simple terms. Today, we&#8217;re going to talk about distributed database systems, or DDBMS for short. If you don&#8217;t know what that is, don&#8217;t worry, We&#8217;ll give you some easy examples to understand.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-full"><img decoding="async" width="600" height="600" src="https://cse.uniqwe.com/wp-content/uploads/2020/01/neve-web-design-bg-15.jpg" alt="distributed database" class="wp-image-42" srcset="https://cse.uniqwe.com/wp-content/uploads/2020/01/neve-web-design-bg-15.jpg 600w, https://cse.uniqwe.com/wp-content/uploads/2020/01/neve-web-design-bg-15-300x300.jpg 300w, https://cse.uniqwe.com/wp-content/uploads/2020/01/neve-web-design-bg-15-150x150.jpg 150w" sizes="(max-width: 600px) 100vw, 600px" /></figure></div>
+
+
+<h2 class="wp-block-heading">What is Distributed Database Systems</h2>
+
+
+
+<p>First of all, what is a database? A database is a collection of data that is organized and stored in a way that makes it easy to access and manipulate. For example, you might have a database of your contacts on your phone, where each contact has a name, a phone number, an email address, and so on.</p>
+
+
+
+<p>Now, what is a distributed database? A distributed database is a database that is split into two or more parts that are stored in different locations. For example, you might have a distributed database of your contacts, such as <a href="https://contacts.google.com/">Google Contacts</a>, where some of them are stored on your phone, some of them are stored on your laptop, and some of them are stored on your tablet.</p>
+
+
+
+<p>Why would you want to do that? Well, there are many reasons why distributed databases are useful. For example, they can improve performance by reducing the network traffic and allowing parallel processing. They can also improve availability by making sure that the data is still accessible even if one location fails. They can also reflect the organizational structure by allowing different sites to have more control over their own data.</p>
+
+
+
+<p>But how do you manage a distributed database? How do you make sure that the data is consistent and up-to-date across all locations? How do you query and update the data from different sites? And how to handle conflicts and failures? These are some of the challenges that distributed database systems face.</p>
+
+
+
+<h2 class="wp-block-heading">How to classify distributed database systems</h2>
+
+
+
+<p>There are different ways to classify distributed database systems based on how they handle these challenges. One way is based on the degree of similarity or difference among the data and the software at each location. If they are all the same, we call it a homogeneous distributed database system. If they are different, we call it a heterogeneous distributed database system.</p>
+
+
+
+<p>Another way is based on the degree of autonomy or dependence among the locations. If they are all independent and can operate without any coordination, we call it a federated distributed database system. If they are dependent and need some coordination, we call it a multidatabase system.</p>
+
+
+
+<p>A third way is based on the degree of replication or fragmentation of the data. Replication means that the same data is stored in various locations. Fragmentation means that different parts of the data are stored in different locations. Replication can improve availability and performance, but it can also increase the complexity of maintaining consistency. Fragmentation can reduce the complexity of maintaining consistency, but it can also increase the complexity of querying and updating.</p>
+
+
+
+<h2 class="wp-block-heading">Conclusion</h2>
+
+
+
+<p>There are also different models and architectures of distributed data processing that describe how the data and the processing are distributed across the locations. For example, there is the client-server model, where one location acts as a server that provides data and services to other locations that act as clients. There is also the peer-to-peer model, where each location acts as both a client and a server and can communicate with any other location.</p>
+
+
+
+<p>As you can see, distributed database systems are very interesting and complex topics that have many applications and challenges. I hope this blog post gave you some basic ideas about what they are and how they work. Thanks for reading and stay tuned for more!</p>
+<p>The post <a rel="nofollow" href="https://cse.uniqwe.com/what-is-distributed-database-systems/">What is distributed database systems</a> appeared first on <a rel="nofollow" href="https://cse.uniqwe.com/">Computer Science and Engineering</a>.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>How to Convert a comma-separated string to a List in Python</title>
+		<link>https://cse.uniqwe.com/how-to-convert-a-comma-separated-string-to-a-list-in-python/</link>
+		
+		<dc:creator><![CDATA[uniqwe]]></dc:creator>
+		<pubDate>Sun, 16 Apr 2023 04:14:41 +0000</pubDate>
+				<category><![CDATA[Python]]></category>
+		<category><![CDATA[Python list]]></category>
+		<category><![CDATA[Python strings]]></category>
+		<guid isPermaLink="false">https://cse.uniqwe.com/?p=535</guid>
+
+					<description><![CDATA[<p>In Python, it is common to encounter data in the form of comma-separated strings. These strings can contain various types of data, such as numbers, words, or even entire sentences. However, when working with this type of data, it is often necessary to convert it into a more usable format, such as a list. In&#8230;&#160;<a href="https://cse.uniqwe.com/how-to-convert-a-comma-separated-string-to-a-list-in-python/" class="" rel="bookmark">Read More &#187;<span class="screen-reader-text">How to Convert a comma-separated string to a List in Python</span></a></p>
+<p>The post <a rel="nofollow" href="https://cse.uniqwe.com/how-to-convert-a-comma-separated-string-to-a-list-in-python/">How to Convert a comma-separated string to a List in Python</a> appeared first on <a rel="nofollow" href="https://cse.uniqwe.com/">Computer Science and Engineering</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[
+<p>In Python, it is common to encounter data in the form of comma-separated strings. These strings can contain various types of data, such as numbers, words, or even entire sentences. However, when working with this type of data, it is often necessary to convert it into a more usable format, such as a list. In this article, we will explore How to Convert a comma-separated string to a List in Python, and provide exercises for practice.</p>
+
+
+
+<h2 class="wp-block-heading">How to Convert a comma-separated string to a List in Python</h2>
+
+
+
+<p>To convert a comma-separated string to a list in Python:</p>
+
+
+
+<ol>
+<li>Call the&nbsp;<code>split()</code>&nbsp;method directly on the string object or literal</li>
+
+
+
+<li><strong>Pass a comma character as the separator argument</strong>, like:&nbsp;<code>string.split(',')</code> </li>
+
+
+
+<li>This will return a list of substrings that are separated by commas. </li>
+</ol>
+
+
+
+<p>For example: </p>
+
+
+
+<ul>
+<li><code>"apple,banana,orange,grape".split(",")</code> will return <code>['apple', 'banana', 'orange', 'grape']</code>.</li>
+
+
+
+<li><code>"1,2,3,4,5".split(",")</code> will return <code>['1', '2', '3', '4', '5']</code>.</li>
+
+
+
+<li><code>"John,Doe,25,Male".split(",")</code> will return <code>['John', 'Doe', '25', 'Male']</code>.</li>
+
+
+
+<li><code>"Hello, World!".split(",")</code> will return <code>['Hello', ' World!']</code>.</li>
+
+
+
+<li><code>"The quick brown fox jumps over the lazy dog".split(",")</code> will return <code>['The quick brown fox jumps over the lazy dog']</code></li>
+</ul>
+
+
+
+<p>If you have understood these examples, let&#8217;s try it yourself:</p>
+
+
+
+<div class="wp-block-codemirror-blocks-code-block code-block"><pre class="CodeMirror" data-setting="{&quot;mode&quot;:&quot;python&quot;,&quot;mime&quot;:&quot;text/x-python&quot;,&quot;theme&quot;:&quot;react&quot;,&quot;lineNumbers&quot;:true,&quot;styleActiveLine&quot;:true,&quot;lineWrapping&quot;:false,&quot;readOnly&quot;:false,&quot;hasCustomCSS&quot;:false,&quot;customCSS&quot;:&quot;&quot;,&quot;otterConditions&quot;:[],&quot;language&quot;:&quot;Python&quot;,&quot;modeName&quot;:&quot;python&quot;}">def solution(string):
+  # Convert a comma-separated string to a List
+  result = 
+  
+  # Return the variable below
+  return 
+
+  # Your code ends here
+  
+# Test the solution function
+result = solution(&quot;red,green,blue,yellow&quot;) 
+print(result) # Expected output: ['red','green','blue','yellow']</pre></div>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-full is-resized"><img decoding="async" src="https://cse.uniqwe.com/wp-content/uploads/2023/04/image.png" alt="" class="wp-image-539" width="526" height="526" srcset="https://cse.uniqwe.com/wp-content/uploads/2023/04/image.png 600w, https://cse.uniqwe.com/wp-content/uploads/2023/04/image-300x300.png 300w, https://cse.uniqwe.com/wp-content/uploads/2023/04/image-150x150.png 150w" sizes="(max-width: 526px) 100vw, 526px" /></figure></div>
+
+
+<h2 class="wp-block-heading">Exercises to practice</h2>
+
+
+
+<p>Write a program that takes a <a href="https://docs.python.org/3/library/string.html">string</a> of comma-separated numbers and returns the sum of those numbers. Here is the solution:</p>
+
+
+
+<div class="wp-block-codemirror-blocks-code-block code-block"><pre class="CodeMirror" data-setting="{&quot;mode&quot;:&quot;python&quot;,&quot;mime&quot;:&quot;text/x-python&quot;,&quot;theme&quot;:&quot;react&quot;,&quot;lineNumbers&quot;:true,&quot;styleActiveLine&quot;:true,&quot;lineWrapping&quot;:false,&quot;readOnly&quot;:true,&quot;hasCustomCSS&quot;:false,&quot;customCSS&quot;:&quot;&quot;,&quot;otterConditions&quot;:[],&quot;language&quot;:&quot;Python&quot;,&quot;modeName&quot;:&quot;python&quot;}">def sum_of_numbers(string):
+    numbers = string.split(&quot;,&quot;)
+    total = 0
+    for num in numbers:
+        total += int(num)
+    return total
+
+string = &quot;1,2,3,4,5&quot;
+print(sum_of_numbers(string)) # Output: 15</pre></div>
+
+
+
+<p>Write a function that takes a string of comma-separated words and returns a list of those words sorted alphabetically. Here is the solution:</p>
+
+
+
+<div class="wp-block-codemirror-blocks-code-block code-block"><pre class="CodeMirror" data-setting="{&quot;mode&quot;:&quot;python&quot;,&quot;mime&quot;:&quot;text/x-python&quot;,&quot;theme&quot;:&quot;react&quot;,&quot;lineNumbers&quot;:true,&quot;styleActiveLine&quot;:true,&quot;lineWrapping&quot;:false,&quot;readOnly&quot;:true,&quot;hasCustomCSS&quot;:false,&quot;customCSS&quot;:&quot;&quot;,&quot;otterConditions&quot;:[],&quot;language&quot;:&quot;Python&quot;,&quot;modeName&quot;:&quot;python&quot;}">def sort_words(string):
+    words = string.split(&quot;,&quot;)
+    sorted_words = sorted(words)
+    return sorted_words
+
+string = &quot;apple,banana,orange,grape&quot;
+print(sort_words(string)) # Output: ['apple', 'banana', 'grape', 'orange']</pre></div>
+
+
+
+<p>Write a program that takes a string of comma-separated values representing a person&#8217;s name, age, and gender, and prints out a sentence introducing that person (e.g. &#8220;Hello, my name is John Doe and I am a 25-year-old male.&#8221;). Here is the solution:</p>
+
+
+
+<div class="wp-block-codemirror-blocks-code-block code-block"><pre class="CodeMirror" data-setting="{&quot;mode&quot;:&quot;python&quot;,&quot;mime&quot;:&quot;text/x-python&quot;,&quot;theme&quot;:&quot;react&quot;,&quot;lineNumbers&quot;:true,&quot;styleActiveLine&quot;:true,&quot;lineWrapping&quot;:false,&quot;readOnly&quot;:true,&quot;hasCustomCSS&quot;:false,&quot;customCSS&quot;:&quot;&quot;,&quot;otterConditions&quot;:[],&quot;language&quot;:&quot;Python&quot;,&quot;modeName&quot;:&quot;python&quot;}">def introduce_person(string):
+    info = string.split(&quot;,&quot;)
+    name = info[0]
+    age = info[1]
+    gender = info[2]
+    return f&quot;Hello, my name is {name} and I am a {age}-year-old {gender}.&quot;
+
+string = &quot;John Doe,25,male&quot;
+print(introduce_person(string)) # Output: Hello, my name is John Doe and I am a 25-year-old male.</pre></div>
+
+
+
+<p>Write a function that takes a string of comma-separated values representing a grocery list, and returns a dictionary where the keys are the items on the list and the values are their quantities. Here is the solution:</p>
+
+
+
+<div class="wp-block-codemirror-blocks-code-block code-block"><pre class="CodeMirror" data-setting="{&quot;mode&quot;:&quot;python&quot;,&quot;mime&quot;:&quot;text/x-python&quot;,&quot;theme&quot;:&quot;react&quot;,&quot;lineNumbers&quot;:true,&quot;styleActiveLine&quot;:true,&quot;lineWrapping&quot;:false,&quot;readOnly&quot;:true,&quot;hasCustomCSS&quot;:false,&quot;customCSS&quot;:&quot;&quot;,&quot;otterConditions&quot;:[],&quot;language&quot;:&quot;Python&quot;,&quot;modeName&quot;:&quot;python&quot;}">def grocery_list(string):
+    items = string.split(&quot;,&quot;)
+    grocery_dict = {}
+    for item in items:
+        if item in grocery_dict:
+            grocery_dict[item] += 1
+        else:
+            grocery_dict[item] = 1
+    return grocery_dict
+
+string = &quot;apple,banana,orange,apple,grape&quot;
+print(grocery_list(string)) # Output: {'apple': 2, 'banana': 1, 'orange': 1, 'grape': 1}</pre></div>
+
+
+
+<p>Write a program that takes a string of comma-separated sentences and prints out the longest sentence in the string. Below is the solution:</p>
+
+
+
+<div class="wp-block-codemirror-blocks-code-block code-block"><pre class="CodeMirror" data-setting="{&quot;mode&quot;:&quot;python&quot;,&quot;mime&quot;:&quot;text/x-python&quot;,&quot;theme&quot;:&quot;react&quot;,&quot;lineNumbers&quot;:true,&quot;styleActiveLine&quot;:true,&quot;lineWrapping&quot;:false,&quot;readOnly&quot;:true,&quot;hasCustomCSS&quot;:false,&quot;customCSS&quot;:&quot;&quot;,&quot;otterConditions&quot;:[],&quot;language&quot;:&quot;Python&quot;,&quot;modeName&quot;:&quot;python&quot;}">def longest_sentence(string):
+    sentences = string.split(&quot;,&quot;)
+    longest = &quot;&quot;
+    for sentence in sentences:
+        if len(sentence) &gt; len(longest):
+            longest = sentence
+    return longest
+
+string = &quot;This is a short sentence, This is a longer sentence, This is the longest sentence&quot;
+print(longest_sentence(string)) # Output: This is the longest sentence</pre></div>
+
+
+
+<p>For more related topics, check out the <a href="https://cse.uniqwe.com/how-to-convert-a-string-in-python-faq/">FAQ: How to convert a string to another in Python</a>.</p>
+<p>The post <a rel="nofollow" href="https://cse.uniqwe.com/how-to-convert-a-comma-separated-string-to-a-list-in-python/">How to Convert a comma-separated string to a List in Python</a> appeared first on <a rel="nofollow" href="https://cse.uniqwe.com/">Computer Science and Engineering</a>.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>How to convert a string in Python Frequently Asked Questions (FAQ)</title>
+		<link>https://cse.uniqwe.com/how-to-convert-a-string-in-python-faq/</link>
+					<comments>https://cse.uniqwe.com/how-to-convert-a-string-in-python-faq/#comments</comments>
+		
+		<dc:creator><![CDATA[uniqwe]]></dc:creator>
+		<pubDate>Sun, 09 Apr 2023 14:44:50 +0000</pubDate>
+				<category><![CDATA[Python]]></category>
+		<category><![CDATA[Python strings]]></category>
+		<guid isPermaLink="false">https://cse.uniqwe.com/?p=513</guid>
+
+					<description><![CDATA[<p>One of the most common questions that Python beginners ask is how to convert a string to another data type, such as a list a set, an enum, or a boolean. In this blog post, we will explore some of the ways to do this using built-in Python functions and methods. Recall What is a&#8230;&#160;<a href="https://cse.uniqwe.com/how-to-convert-a-string-in-python-faq/" class="" rel="bookmark">Read More &#187;<span class="screen-reader-text">How to convert a string in Python Frequently Asked Questions (FAQ)</span></a></p>
+<p>The post <a rel="nofollow" href="https://cse.uniqwe.com/how-to-convert-a-string-in-python-faq/">How to convert a string in Python Frequently Asked Questions (FAQ)</a> appeared first on <a rel="nofollow" href="https://cse.uniqwe.com/">Computer Science and Engineering</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[
+<p>One of the most common questions that Python beginners ask is how to convert a string to another data type, such as a list a set, an enum, or a boolean. In this blog post, we will explore some of the ways to do this using built-in Python functions and methods.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-full"><img decoding="async" width="600" height="600" src="https://cse.uniqwe.com/wp-content/uploads/2020/01/neve-web-design-bg-09.jpg" alt="programmers in python" class="wp-image-36" srcset="https://cse.uniqwe.com/wp-content/uploads/2020/01/neve-web-design-bg-09.jpg 600w, https://cse.uniqwe.com/wp-content/uploads/2020/01/neve-web-design-bg-09-300x300.jpg 300w, https://cse.uniqwe.com/wp-content/uploads/2020/01/neve-web-design-bg-09-150x150.jpg 150w" sizes="(max-width: 600px) 100vw, 600px" /></figure></div>
+
+
+<h2 class="wp-block-heading">Recall What is a string and How to convert a string in Python</h2>
+
+
+
+<p>First, let&#8217;s understand what a string is. A string is a sequence of characters inside quotation marks, such as &#8220;Hello&#8221;, &#8220;42&#8221;, or &#8216;3.14&#8217;. </p>
+
+
+
+<p>However, if you want your string to include the quotation marks, then you can use <a href="https://www.w3schools.com/python/gloss_python_multi_line_strings.asp">multiline string</a> or use escape characters (with backslash <code>\</code>):</p>
+
+
+
+<div class="wp-block-codemirror-blocks-code-block code-block"><pre class="CodeMirror" data-setting="{&quot;mode&quot;:&quot;python&quot;,&quot;mime&quot;:&quot;text/x-python&quot;,&quot;theme&quot;:&quot;react&quot;,&quot;lineNumbers&quot;:true,&quot;styleActiveLine&quot;:true,&quot;lineWrapping&quot;:false,&quot;readOnly&quot;:false,&quot;hasCustomCSS&quot;:false,&quot;customCSS&quot;:&quot;&quot;,&quot;otterConditions&quot;:[],&quot;language&quot;:&quot;Python&quot;,&quot;modeName&quot;:&quot;python&quot;}">multiLine = '''
+We can write two single quote marks ('') or many double quote marks (&quot;&quot;&quot;)
+But dont write three single quote marks because the string will be ended! 
+The same rule applies if you had enclosed the string with double quotes
+'''
+
+singleLine = &quot;We can have as much quotes \&quot;\&quot;\&quot; \'\'\' as we want&quot;</pre></div>
+
+
+
+<p>Strings can be concatenated with the <code>+</code> operator, sliced within the <code>[]</code> operator, and formatted with the f-string syntax:</p>
+
+
+
+<div class="wp-block-codemirror-blocks-code-block code-block"><pre class="CodeMirror" data-setting="{&quot;mode&quot;:&quot;python&quot;,&quot;mime&quot;:&quot;text/x-python&quot;,&quot;theme&quot;:&quot;react&quot;,&quot;lineNumbers&quot;:true,&quot;styleActiveLine&quot;:true,&quot;lineWrapping&quot;:false,&quot;readOnly&quot;:true,&quot;hasCustomCSS&quot;:false,&quot;customCSS&quot;:&quot;&quot;,&quot;otterConditions&quot;:[],&quot;language&quot;:&quot;Python&quot;,&quot;modeName&quot;:&quot;python&quot;}"># Concatenate two strings using the + operator
+name = &quot;CSE&quot; + &quot; Uniqwe&quot;
+
+# Slice the string from 4th index to the end
+domain = name[4:]
+
+# Format string with the f-string syntax
+print(&quot;This is %s, a product of %s.&quot; % (name, domain))
+# Output: This is CSE Uniqwe, a product of Uniqwe.</pre></div>
+
+
+
+<p>To convert a string to an integer, we can use the <code>int()</code> function. This function takes a string as an argument and returns an integer value. For example:</p>
+
+
+
+<div class="wp-block-codemirror-blocks-code-block code-block"><pre class="CodeMirror" data-setting="{&quot;mode&quot;:&quot;python&quot;,&quot;mime&quot;:&quot;text/x-python&quot;,&quot;theme&quot;:&quot;react&quot;,&quot;lineNumbers&quot;:true,&quot;styleActiveLine&quot;:true,&quot;lineWrapping&quot;:false,&quot;readOnly&quot;:true,&quot;hasCustomCSS&quot;:false,&quot;customCSS&quot;:&quot;&quot;,&quot;otterConditions&quot;:[],&quot;language&quot;:&quot;Python&quot;,&quot;modeName&quot;:&quot;python&quot;}">string = &quot;2023&quot;
+integer = int(string)
+
+print(integer, type(integer)) # 2023 &lt;class 'int'&gt;</pre></div>
+
+
+
+<p>To convert a string to a float, we can use the <code>float()</code> function. This function works similarly to the <code>int()</code> function, but it can handle strings that contain decimal points or scientific notation. For example:</p>
+
+
+
+<div class="wp-block-codemirror-blocks-code-block code-block"><pre class="CodeMirror" data-setting="{&quot;mode&quot;:&quot;python&quot;,&quot;mime&quot;:&quot;text/x-python&quot;,&quot;theme&quot;:&quot;react&quot;,&quot;lineNumbers&quot;:true,&quot;styleActiveLine&quot;:true,&quot;lineWrapping&quot;:false,&quot;readOnly&quot;:true,&quot;hasCustomCSS&quot;:false,&quot;customCSS&quot;:&quot;&quot;,&quot;otterConditions&quot;:[],&quot;language&quot;:&quot;Python&quot;,&quot;modeName&quot;:&quot;python&quot;}">string = &quot;3.14&quot;
+pi = float(string)
+
+print(pi, type(pi)) # 3.14 &lt;class 'float'&gt;</pre></div>
+
+
+
+<p>To convert a string to a list, we can use the <code>list()</code> function or the <code>split()</code> method. The <code>list()</code> function takes a string as an argument and returns a list of characters. For example:</p>
+
+
+
+<div class="wp-block-codemirror-blocks-code-block code-block"><pre class="CodeMirror" data-setting="{&quot;mode&quot;:&quot;python&quot;,&quot;mime&quot;:&quot;text/x-python&quot;,&quot;theme&quot;:&quot;react&quot;,&quot;lineNumbers&quot;:true,&quot;styleActiveLine&quot;:true,&quot;lineWrapping&quot;:false,&quot;readOnly&quot;:true,&quot;hasCustomCSS&quot;:false,&quot;customCSS&quot;:&quot;&quot;,&quot;otterConditions&quot;:[],&quot;language&quot;:&quot;Python&quot;,&quot;modeName&quot;:&quot;python&quot;}">string = &quot;Hello&quot;
+charList = list(string)
+
+print(charList) # ['H', 'e', 'l', 'l', 'o']</pre></div>
+
+
+
+<p>Next, we will provide you with some questions (<a href="https://cse.uniqwe.com/check-if-a-string-contains-in-a-string-faq-in-python/">FAQ</a>) about converting strings in Python.</p>
+
+
+
+<h2 class="wp-block-heading">FAQ : How to convert a string to another in Python</h2>
+
+
+
+<div class="schema-faq wp-block-yoast-faq-block"><div class="schema-faq-section" id="faq-question-1681030480718"><strong class="schema-faq-question">How to Convert a comma-separated string to a List in Python</strong> <p class="schema-faq-answer">To convert a comma-separated string to a list in Python, call the <code>split()</code> method on the string object, and <strong>pass a comma as the separator argument</strong> as follow: <code>string.split(",")</code>. This will return a list of substrings that are separated by commas in the original string. For example:  Calling <code>"red,green,blue,yellow".split(",")</code> will return a list of 4 items.</p> </div> <div class="schema-faq-section" id="faq-question-1681030519100"><strong class="schema-faq-question">How to Convert a list of characters into a string in Python</strong> <p class="schema-faq-answer">To convert a list of characters into a string in Python, you can call the <code>join()</code> method on an <strong>empty string literal, and pass the list as the argument.</strong> For example: <code>"".join(charList)</code> where <code>charList</code> is the declared list of characters. Or you can pass the list directly like: <code>"".join(['H', 'e', 'l', 'l', 'o'])</code>, this example will return <code>'Hello'</code> string.</p> </div> <div class="schema-faq-section" id="faq-question-1681030538039"><strong class="schema-faq-question">How to Convert a list to a comma-separated string in Python</strong> <p class="schema-faq-answer">To convert a list to a comma-separated string in Python, you can also pass the list declared to the <code>join()</code> method as an argument, but this time <strong>call this method on a comma</strong> character instead. For example: <code>",".join(['computer', 'science', 'is', 'fun'])</code> will return <code>'computer,science,is,fun'</code>. In case you <strong>declared the char list before</strong>, the use is: <code>",".join(charList)</code></p> </div> <div class="schema-faq-section" id="faq-question-1681030549203"><strong class="schema-faq-question">How to Convert a string to a Class object in Python</strong> <p class="schema-faq-answer">To convert a string to a Class object in Python, you can use the function <code>eval()</code> with the string as argument. For example, if you have a string <code>"bool"</code> and you want to get the corresponding Class object, you can do: <code>eval("bool")</code> and the result will be <code>&lt;class 'bool'></code> . Alternatively, you can use <strong><code>globals</code> array</strong> with the syntax: <code>globals()[class_name]</code>.<br/></p> </div> <div class="schema-faq-section" id="faq-question-1681030558520"><strong class="schema-faq-question">How to Convert a string to a raw string in Python</strong> <p class="schema-faq-answer">To convert a string to a raw string in Python, you can add the <code>r</code> prefix before the string literal (<strong>before the quote</strong>). This will prevent any escape sequences from being interpreted. For example: if you have a string <code>"Hello\nWorld"</code>, you can <code>print(r"Hello\nWorld")</code> and see that the newline character will still be there instead of breaking the line.</p> </div> <div class="schema-faq-section" id="faq-question-1681030566992"><strong class="schema-faq-question">How to Convert a String to a Set in Python</strong> <p class="schema-faq-answer">To convert a String to a Set in Python, you can use the function <code>set()</code> with the string as an argument. This will create <strong>a set of all the unique characters</strong> in the string. For example: <code>print set("Lady Gaga")</code> outputs <code>{'a', 'L', ' ', 'g', 'd', 'G', 'y'}</code> , as this is case sensitive so we receive both &#8216;G&#8217; and &#8216;g&#8217;.</p> </div> <div class="schema-faq-section" id="faq-question-1681030574740"><strong class="schema-faq-question">How to Convert a string to a tuple without splitting in Python</strong> <p class="schema-faq-answer">To convert a string to a tuple without splitting in Python, call the function <code>tuple(your_string)</code>. This will create a <strong>tuple of all the characters</strong> in the string. For example: <code>tuple("banana")</code> will return a tuple as: <code>('b', 'a', 'n', 'a', 'n', 'a')</code>. If you want to <strong>remove duplicates</strong>, use <code>tuple(set("banana"))</code> instead and you will get <code>('n', 'b', 'a')</code>.</p> </div> <div class="schema-faq-section" id="faq-question-1681030582677"><strong class="schema-faq-question">How to Convert a String to an Enum in Python</strong> <p class="schema-faq-answer">To convert a String to an Enum in Python, first <code>import enum</code> and then use <code>()</code> or <code>[]</code> operator. For example: Declare a <strong>Season enum</strong> as:  <code>season = enum.Enum("Season", {"SPRING":1, "SUMMER":2, "FALL":3, "WINTER":4})</code>. The <code>season(1)</code> expression now gives a <code>&lt;Season.SPRING: 1></code> enum while the <code>season["WINTER"]</code> returns <code>&lt;Season.WINTER: 4></code> enum.</p> </div> <div class="schema-faq-section" id="faq-question-1681030596163"><strong class="schema-faq-question">How to Convert multiline string to a single line in Python</strong> <p class="schema-faq-answer">To convert a multiline string to a single line in Python, call the <code>replace()</code> method on that string with a <strong>newline character</strong> <code>('\n')</code> as the <strong>first argument</strong> and a <strong>zero-length string</strong> as the <strong>second argument</strong>. For example: <code>multilineString.replace("\n", "")</code>. If you want to keep the newline characters, you can simply pass the string into to the <code>repr()</code> function.<br/></p> </div> <div class="schema-faq-section" id="faq-question-1681030606688"><strong class="schema-faq-question">How to Convert String to Boolean in Python</strong> <p class="schema-faq-answer">To convert a string to a boolean in Python: pass it to the <code>bool()</code> function. This returns <code>True</code> if the argument is truthy, and <code>False</code> if it is falsy (those that are considered <strong>empty or zero</strong>, such as zero-length strings, empty lists, None, 0, etc). For example: <code>bool("0")</code> returns <code>True</code>, while <code>bool("")</code> returns <code>False</code> because of <strong>an empty string</strong>.</p> </div> </div>
+
+
+
+<h2 class="wp-block-heading">Conclusion</h2>
+
+
+
+<p>These are some of the ways to convert a string in Python. There are many other built-in functions and methods that can help us manipulate strings in different ways. To learn more about them, you can refer to the official Python documentation or online tutorials.</p>
+
+
+
+<p>In this blog spot, we have provided you answers the most asked questions about string converting in Python. We hope our explanation is valuable and useful to you. Thanks for reading!</p>
+<p>The post <a rel="nofollow" href="https://cse.uniqwe.com/how-to-convert-a-string-in-python-faq/">How to convert a string in Python Frequently Asked Questions (FAQ)</a> appeared first on <a rel="nofollow" href="https://cse.uniqwe.com/">Computer Science and Engineering</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://cse.uniqwe.com/how-to-convert-a-string-in-python-faq/feed/</wfw:commentRss>
+			<slash:comments>2</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Check if a string contains in a string FAQ in Python</title>
+		<link>https://cse.uniqwe.com/check-if-a-string-contains-in-a-string-faq-in-python/</link>
+		
+		<dc:creator><![CDATA[uniqwe]]></dc:creator>
+		<pubDate>Sun, 09 Apr 2023 06:16:00 +0000</pubDate>
+				<category><![CDATA[Python]]></category>
+		<category><![CDATA[Python list]]></category>
+		<category><![CDATA[Python regex]]></category>
+		<category><![CDATA[Python strings]]></category>
+		<guid isPermaLink="false">https://cse.uniqwe.com/?p=494</guid>
+
+					<description><![CDATA[<p>Recall how to check if a string contains a substring in Python Check if a string contains another string: use the in operator or the find() method. The in operator checks if a substring is inside a larger string and returns True or False. The find() method returns the index of the first occurrence of&#8230;&#160;<a href="https://cse.uniqwe.com/check-if-a-string-contains-in-a-string-faq-in-python/" class="" rel="bookmark">Read More &#187;<span class="screen-reader-text">Check if a string contains in a string FAQ in Python</span></a></p>
+<p>The post <a rel="nofollow" href="https://cse.uniqwe.com/check-if-a-string-contains-in-a-string-faq-in-python/">Check if a string contains in a string FAQ in Python</a> appeared first on <a rel="nofollow" href="https://cse.uniqwe.com/">Computer Science and Engineering</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[
+<h2 class="wp-block-heading">Recall how to check if a string contains a substring in Python</h2>
+
+
+
+<p>Check if a string contains another string: use the <strong><code>in</code> </strong>operator or the <code><strong>find()</strong></code> method. The <strong><code>in</code> </strong>operator checks if a substring is inside a larger string and returns <code>True</code> or <code>False</code>. The <code><strong>find()</strong></code> method returns the index of the first occurrence of a substring within a larger string. If the substring is not found, it returns <code><strong>-1</strong></code>.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-full is-resized"><img decoding="async" src="https://cse.uniqwe.com/wp-content/uploads/2020/01/neve-web-design-bg-11.jpg" alt="programmers" class="wp-image-38" width="418" height="418" srcset="https://cse.uniqwe.com/wp-content/uploads/2020/01/neve-web-design-bg-11.jpg 600w, https://cse.uniqwe.com/wp-content/uploads/2020/01/neve-web-design-bg-11-300x300.jpg 300w, https://cse.uniqwe.com/wp-content/uploads/2020/01/neve-web-design-bg-11-150x150.jpg 150w" sizes="(max-width: 418px) 100vw, 418px" /></figure></div>
+
+
+<p>The below content is just a recall of how to do this, since we also have a blog about this subject before, you can read it <a href="https://cse.uniqwe.com/check-if-a-string-contains-a-substring-or-a-word-in-python/">here</a>. Below is an example of checking if the string &#8220;hello world&#8221; contains the string &#8220;hello&#8221; using the in operator :</p>
+
+
+
+<div class="wp-block-codemirror-blocks-code-block code-block"><pre class="CodeMirror" data-setting="{&quot;mode&quot;:&quot;python&quot;,&quot;mime&quot;:&quot;text/x-python&quot;,&quot;theme&quot;:&quot;react&quot;,&quot;lineNumbers&quot;:true,&quot;styleActiveLine&quot;:true,&quot;lineWrapping&quot;:false,&quot;readOnly&quot;:true,&quot;hasCustomCSS&quot;:false,&quot;customCSS&quot;:&quot;&quot;,&quot;otterConditions&quot;:[],&quot;language&quot;:&quot;Python&quot;,&quot;modeName&quot;:&quot;python&quot;}">my_string = &quot;hello world&quot;
+if &quot;hello&quot; in my_string:
+    print(&quot;Substring found!&quot;)
+else:
+    print(&quot;Substring not found.&quot;)</pre></div>
+
+
+
+<p>Output:</p>
+
+
+
+<div class="wp-block-codemirror-blocks-code-block code-block"><pre class="CodeMirror" data-setting="{&quot;mode&quot;:&quot;python&quot;,&quot;mime&quot;:&quot;text/x-python&quot;,&quot;theme&quot;:&quot;react&quot;,&quot;lineNumbers&quot;:true,&quot;styleActiveLine&quot;:true,&quot;lineWrapping&quot;:false,&quot;readOnly&quot;:true,&quot;languageLabel&quot;:&quot;no&quot;,&quot;hasCustomCSS&quot;:false,&quot;customCSS&quot;:&quot;&quot;,&quot;otterConditions&quot;:[],&quot;language&quot;:&quot;Python&quot;,&quot;modeName&quot;:&quot;python&quot;}">Substring found!</pre></div>
+
+
+
+<p>Here is an example of using the <code>find()</code> method to find the substring &#8220;world&#8221; in the string &#8220;hello world&#8221;:</p>
+
+
+
+<div class="wp-block-codemirror-blocks-code-block code-block"><pre class="CodeMirror" data-setting="{&quot;mode&quot;:&quot;python&quot;,&quot;mime&quot;:&quot;text/x-python&quot;,&quot;theme&quot;:&quot;react&quot;,&quot;lineNumbers&quot;:true,&quot;styleActiveLine&quot;:true,&quot;lineWrapping&quot;:false,&quot;readOnly&quot;:true,&quot;hasCustomCSS&quot;:false,&quot;customCSS&quot;:&quot;&quot;,&quot;otterConditions&quot;:[],&quot;language&quot;:&quot;Python&quot;,&quot;modeName&quot;:&quot;python&quot;}">my_string = &quot;hello world&quot;
+index = my_string.find(&quot;world&quot;)
+if index != -1:
+    print(&quot;Substring found at index:&quot;, index)
+else:
+    print(&quot;Substring not found.&quot;)</pre></div>
+
+
+
+<p>Output:</p>
+
+
+
+<div class="wp-block-codemirror-blocks-code-block code-block"><pre class="CodeMirror" data-setting="{&quot;mode&quot;:&quot;python&quot;,&quot;mime&quot;:&quot;text/x-python&quot;,&quot;theme&quot;:&quot;react&quot;,&quot;lineNumbers&quot;:true,&quot;styleActiveLine&quot;:true,&quot;lineWrapping&quot;:false,&quot;readOnly&quot;:true,&quot;languageLabel&quot;:&quot;no&quot;,&quot;hasCustomCSS&quot;:false,&quot;customCSS&quot;:&quot;&quot;,&quot;otterConditions&quot;:[],&quot;language&quot;:&quot;Python&quot;,&quot;modeName&quot;:&quot;python&quot;}">Substring found at index: 6</pre></div>
+
+
+
+<p>Many people asked questions about string contains in python. We will help you with the following list of frequently asked questions. This list contains some of the most common ways to do this in python, along with some quick comments and examples.</p>
+
+
+
+<h2 class="wp-block-heading">FAQ (Frequently asked questions): Check if a string contains a substring python</h2>
+
+
+
+<div class="schema-faq wp-block-yoast-faq-block"><div class="schema-faq-section" id="faq-question-1680973515585"><strong class="schema-faq-question">How to check if a string contains a newline (\n) in Python</strong> <p class="schema-faq-answer">To check if a string <strong>contains a newline</strong> (<code>\n</code>), we can use the <code>in</code> operator, which returns <code>True</code> if the newline is found in the string, and <code>False</code> otherwise. For instance: <code>print("\n" in "Hello\nWorld")</code> will print <code>True</code> while <code>print("\n" in "You and I")</code> prints False.<br/></p> </div> <div class="schema-faq-section" id="faq-question-1680976214137"><strong class="schema-faq-question">How to check if a string contains a number in Python</strong> <p class="schema-faq-answer">To check if a string contains <strong>at least a number (or a digit) regardless of characters</strong> and signs, we need to <code>import re</code> module first. Then pass the regex and the string as arguments of the <code>re.search()</code> method. Remember to check whether the method&#8217;s result <code>is not None</code>. Here is an example returning <code>True</code>: <code>(re.search('[0-9]', "-abc123") is not None)</code></p> </div> <div class="schema-faq-section" id="faq-question-1680974687452"><strong class="schema-faq-question">How to check if a string contains an element from a list in Python</strong> <p class="schema-faq-answer">To check if a string contains an element from a list, we can use a loop to iterate over the list and check each element using the <code>in</code> operator. Alternatively, we can use the <code>any()</code> function, which returns <code>True</code> if <strong>any element</strong> of the list satisfies, and <code>False</code> otherwise. Here is an example: <code>print(any(element in myString for element in myList))</code> </p> </div> <div class="schema-faq-section" id="faq-question-1680974694312"><strong class="schema-faq-question">How to check if a string contains a vowel in Python</strong> <p class="schema-faq-answer">To check if a string contains a vowel, we can use the <code>in</code> operator, but instead of using a list, we can use a <strong>set of vowels</strong>. A set is an unordered collection of unique elements that <strong>supports fast</strong> membership testing. For instance: <code>print(any(element in "Hello".lower() for element in {"a", "e", "i", "o", "u"}))</code> outputs <code>True</code>.</p> </div> <div class="schema-faq-section" id="faq-question-1680975461779"><strong class="schema-faq-question">How to check if a string does not contain a substring in Python</strong> <p class="schema-faq-answer">To check if a string does not contain a substring, we can use the <code>not</code> operator next to the <code>in</code> operator. This will return <code>True</code> if the substring is <strong>not in</strong> the string, and <code>False</code> otherwise. For example: <code>("world" not in "Hello")</code> will be <code>True</code> whereas <code>("Uniqwe" not in "CSE Uniqwe")</code> returns <code>False</code>.</p> </div> <div class="schema-faq-section" id="faq-question-1680977420971"><strong class="schema-faq-question">How to check if string contains substring case-insensitive in Python</strong> <p class="schema-faq-answer">The quickest way to check if a string contains a substring case-insensitive is to <strong>use either</strong> the <code>lower()</code> method or <code>upper()</code> method on both strings and then use the <code>in</code> operator to check it. Such <code>substring.lower() in string.lower()</code> or <code>"hello".upper() in "Hello World".upper()</code> is valid, while <code>substring.lower() in string.upper()</code> <strong>is wrong</strong> and always returns <code>False</code> <strong>if any alphabetical character appears</strong>.</p> </div> <div class="schema-faq-section" id="faq-question-1681008079447"><strong class="schema-faq-question">How to Check if string starts with substring using Regex in Python</strong> <p class="schema-faq-answer">One way to check if a string starts with a substring using regex is to <code>import re</code> module and add the <strong>preceding <code>'^'</code> anchor to the substring</strong> and pass it to the <code>re.match()</code> function. The expression <code>re.match("^" + substring, string)</code> or <code>re.match("^" + re.escape(substring), string)</code><strong> in the if statement will be <code>True</code> if satisfied</strong>, and <code>False</code> otherwise.</p> </div> <div class="schema-faq-section" id="faq-question-1681016014295"><strong class="schema-faq-question">How to Check if string ends with a substring using Regex in Python</strong> <p class="schema-faq-answer">One way to check if a string ends with a substring using regex is to use the <code>re.match()</code> function. First, <code>import re</code> module and <strong>add the <code>"$"</code> anchor to the end of the substring</strong>. For example: <code>re.match(substring + "$", string)</code> or <code>re.match(re.escape(substring) + "$", string)</code> will <strong>return None if not satisfied</strong>. Otherwise, it returns a Match object.</p> </div> <div class="schema-faq-section" id="faq-question-1681017152895"><strong class="schema-faq-question">How to Check if list of words exists in a String in Python</strong> <p class="schema-faq-answer">The one-line way to check if a list of words exists in a string is to use the <code>any()</code> function with a <code>for ... in ...</code> expression. For example: <code>any(word in string for word in wordList)</code>. The expression will returns <code>True</code> if there is a match. However, <strong>you can&#8217;t know how many matches</strong> are there if you use this approach.</p> </div> <div class="schema-faq-section" id="faq-question-1681018831072"><strong class="schema-faq-question">How to Count how many times a substring appears in a string in python</strong> <p class="schema-faq-answer">If you want to count the times of a substring in string Python, you can call the <code>count()</code> method on the full string. <strong>Remember to pass the substring to this method</strong>. For example: <code>"jolene jolene jolene jolene".count("jolene")</code> will return 4. If you  want to <strong>only count from position</strong> 7 to 20 (<a href="https://en.wikipedia.org/wiki/Zero-based_numbering">Zero-based</a>), just do like: <code>your_string.count(substring,7,20)</code></p> </div> </div>
+
+
+
+<h2 class="wp-block-heading">Conclusion</h2>
+
+
+
+<p>If you are new to Python, you should skip the questions asking about regex or regular expressions. Although it is more complex and error-prone, regex is a powerful and flexible way to deal with this. It is also recommended that you learn this concept in the future, when you are ready.</p>
+
+
+
+<p>We hope this list was helpful and funny. Remember, there is more than one way to do this, but some ways are better than others. Happy coding!</p>
+
+
+
+<p></p>
+<p>The post <a rel="nofollow" href="https://cse.uniqwe.com/check-if-a-string-contains-in-a-string-faq-in-python/">Check if a string contains in a string FAQ in Python</a> appeared first on <a rel="nofollow" href="https://cse.uniqwe.com/">Computer Science and Engineering</a>.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Check if a string contains a substring or a word (ignore case) in Python</title>
+		<link>https://cse.uniqwe.com/check-if-a-string-contains-a-substring-or-a-word-in-python/</link>
+		
+		<dc:creator><![CDATA[uniqwe]]></dc:creator>
+		<pubDate>Sat, 08 Apr 2023 16:38:52 +0000</pubDate>
+				<category><![CDATA[Python]]></category>
+		<category><![CDATA[Python strings]]></category>
+		<guid isPermaLink="false">https://cse.uniqwe.com/?p=471</guid>
+
+					<description><![CDATA[<p>Python is a versatile and powerful programming language that can be used for various tasks, such as web development, data analysis, machine learning, and more. One of the common operations that we may need to perform with strings is to check if a string contains a certain word or substring. There are different ways to&#8230;&#160;<a href="https://cse.uniqwe.com/check-if-a-string-contains-a-substring-or-a-word-in-python/" class="" rel="bookmark">Read More &#187;<span class="screen-reader-text">Check if a string contains a substring or a word (ignore case) in Python</span></a></p>
+<p>The post <a rel="nofollow" href="https://cse.uniqwe.com/check-if-a-string-contains-a-substring-or-a-word-in-python/">Check if a string contains a substring or a word (ignore case) in Python</a> appeared first on <a rel="nofollow" href="https://cse.uniqwe.com/">Computer Science and Engineering</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[
+<p>Python is a versatile and powerful programming language that can be used for various tasks, such as web development, data analysis, machine learning, and more. One of the common operations that we may need to perform with strings is to check if a string contains a certain word or substring.</p>
+
+
+
+<p>There are different ways to do this in Python, depending on our needs and preferences. In this blog post, we will explore some of the methods that we can use to check if a string contains something in Python, and compare their advantages and disadvantages.</p>
+
+
+
+<h2 class="wp-block-heading">Check if a string contains substring in python</h2>
+
+
+
+<p>The most intuitive ways to check if a string contains a substring in Python is to use the <code>in</code> operator. It returns <code>True</code> if the substring is found in the string, and <code>False</code> otherwise. For example: the expression <code>"mother" in "my grandmother"</code> returns <code>True</code> when printed.</p>
+
+
+
+<div class="wp-block-codemirror-blocks-code-block code-block"><pre class="CodeMirror" data-setting="{&quot;mode&quot;:&quot;python&quot;,&quot;mime&quot;:&quot;text/x-python&quot;,&quot;theme&quot;:&quot;react&quot;,&quot;lineNumbers&quot;:true,&quot;styleActiveLine&quot;:true,&quot;lineWrapping&quot;:false,&quot;readOnly&quot;:true,&quot;hasCustomCSS&quot;:false,&quot;customCSS&quot;:&quot;&quot;,&quot;otterConditions&quot;:[],&quot;language&quot;:&quot;Python&quot;,&quot;modeName&quot;:&quot;python&quot;}">substring = &quot;python&quot;
+string = &quot;I love python programming&quot;
+print(substring in string) #True
+print(&quot;program&quot; in string) #True</pre></div>
+
+
+
+<p>To check if a string contains a substring case-insensitive, apply the <code>lower()</code> methods on both strings and then use the <code>in</code> operator. For instance : <code>substring.lower() in string.lower()</code> or <code>"dad".lower() in "grandDad".lower()</code>. This may or may not be what we want, depending on our use case. If we only want to match whole words, we may need the next method.</p>
+
+
+
+<h2 class="wp-block-heading">Check if a string contains a word in python</h2>
+
+
+
+<p>To check if a string contains a single word in Python, use the <code>in</code> operator to see if that word is <strong>in the list</strong> returned by the <code>split()</code> method applied directly on your string. For instance:   <code>"father" in "my grandfather".split()</code> results in <code>False</code> because the returned list of words is <code>['my', 'grandfather']</code>.</p>
+
+
+
+<div class="wp-block-codemirror-blocks-code-block code-block"><pre class="CodeMirror" data-setting="{&quot;mode&quot;:&quot;python&quot;,&quot;mime&quot;:&quot;text/x-python&quot;,&quot;theme&quot;:&quot;react&quot;,&quot;lineNumbers&quot;:true,&quot;styleActiveLine&quot;:true,&quot;lineWrapping&quot;:false,&quot;readOnly&quot;:true,&quot;hasCustomCSS&quot;:false,&quot;customCSS&quot;:&quot;&quot;,&quot;otterConditions&quot;:[],&quot;language&quot;:&quot;Python&quot;,&quot;modeName&quot;:&quot;python&quot;}">word = &quot;program&quot;
+string = &quot;We love python programming&quot;
+wordList = string.split()
+
+print(wordList) #['We', 'love', 'python', 'programming']
+
+# Check if a string contains a word
+print(word in wordList) #False</pre></div>
+
+
+
+<p><a href="https://www.w3schools.com/python/ref_string_split.asp">This method</a> will only match whole words, since it splits the string by whitespace characters. However, if you want to split words in your string by a comma (or a delimiter), just passed that <strong>only one</strong> to the <code>split()</code> method, such as <code>split(',')</code>. If you want to pass more than one delimiter, use the <code>re.split()</code> method with a regex instead.</p>
+
+
+
+<h2 class="wp-block-heading">Check if a string contains a regex python</h2>
+
+
+
+<p>To use regular expressions in Python, we need to <code>import re</code> module. Then called <code>re.search(pattern,string)</code>, the first argument is a regex or a substring, and the second one is the full string. It <strong>returns a Match object</strong> if the pattern is found in the string, or <code>None</code> otherwise. For example: <code>re.search("mom","dad")</code> returns <code>None</code>.</p>
+
+
+
+<p>To check if a string contains a word using regular expressions, we can use re.search() with an if statement, and convert the result to a boolean value using <code>bool()</code>. For example:</p>
+
+
+
+<div class="wp-block-codemirror-blocks-code-block code-block"><pre class="CodeMirror" data-setting="{&quot;mode&quot;:&quot;python&quot;,&quot;mime&quot;:&quot;text/x-python&quot;,&quot;theme&quot;:&quot;react&quot;,&quot;lineNumbers&quot;:true,&quot;styleActiveLine&quot;:true,&quot;lineWrapping&quot;:false,&quot;readOnly&quot;:true,&quot;hasCustomCSS&quot;:false,&quot;customCSS&quot;:&quot;&quot;,&quot;otterConditions&quot;:[],&quot;language&quot;:&quot;Python&quot;,&quot;modeName&quot;:&quot;python&quot;}">import re
+
+bool(re.search(&quot;world&quot;, &quot;hello world&quot;)) # True
+bool(re.search(&quot;java&quot;, &quot;hello world&quot;)) # False</pre></div>
+
+
+
+<p>One of the advantages of using regular expressions is that we can specify <a href="https://cse.uniqwe.com/check-if-a-string-contains-in-a-string-faq-in-python/">more details</a> about how we want to match the word. For example, we can use special characters and modifiers to indicate case sensitivity, boundaries, repetitions, alternatives, etc.</p>
+
+
+
+<p>If we want to match <strong>only whole words</strong> that are case insensitive, we can use the <code>\b</code> metacharacter to mark word boundaries, and the <code>re.IGNORECASE</code> flag to ignore case differences. For example: <code>re.search(r"\bpython\b", "Python", re.IGNORECASE)</code> returns Match while <code>re.search(r"\bpy\b", "Python", re.IGNORECASE)</code> returns None.</p>
+
+
+
+<div class="wp-block-codemirror-blocks-code-block code-block"><pre class="CodeMirror" data-setting="{&quot;mode&quot;:&quot;python&quot;,&quot;mime&quot;:&quot;text/x-python&quot;,&quot;theme&quot;:&quot;react&quot;,&quot;lineNumbers&quot;:true,&quot;styleActiveLine&quot;:true,&quot;lineWrapping&quot;:false,&quot;readOnly&quot;:true,&quot;hasCustomCSS&quot;:false,&quot;customCSS&quot;:&quot;&quot;,&quot;otterConditions&quot;:[],&quot;language&quot;:&quot;Python&quot;,&quot;modeName&quot;:&quot;python&quot;}">import re
+string = &quot;We love python&quot;
+
+print (re.search(r&quot;\bpython\b&quot;, string, re.IGNORECASE))
+# Output: &lt;re.Match object; span=(8, 14), match='python'&gt;
+
+print(re.search(r&quot;\bPython\b&quot;, string))
+# Output: None</pre></div>
+
+
+
+<p>You may also note that there is a <code>r</code> character before the pattern in the above example. It stands for raw string in Python, which treats the backslash character (\) as a literal character. If this knowledge is new to you, then you should learn more about regular expressions also. They are a powerful tool for pattern matching and text processing, that can handle complex and varied scenarios.</p>
+
+
+
+<h2 class="wp-block-heading">Conclusion</h2>
+
+
+
+<p>In this blog post, we have learned how to check if a string contains a word in Python using different methods, such as the <code>in</code> operator, the <code>split()</code> method or the <code>re.search()</code> from the <code>re</code> module. We hope our content is straightforward and valuable to you. Thanks for reading!</p>
+<p>The post <a rel="nofollow" href="https://cse.uniqwe.com/check-if-a-string-contains-a-substring-or-a-word-in-python/">Check if a string contains a substring or a word (ignore case) in Python</a> appeared first on <a rel="nofollow" href="https://cse.uniqwe.com/">Computer Science and Engineering</a>.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Convert a list of characters into a string in Python</title>
+		<link>https://cse.uniqwe.com/convert-a-list-of-characters-into-a-string-in-python/</link>
+		
+		<dc:creator><![CDATA[uniqwe]]></dc:creator>
+		<pubDate>Wed, 05 Apr 2023 08:45:07 +0000</pubDate>
+				<category><![CDATA[Python]]></category>
+		<category><![CDATA[Python chars]]></category>
+		<category><![CDATA[Python strings]]></category>
+		<guid isPermaLink="false">https://cse.uniqwe.com/?p=457</guid>
+
+					<description><![CDATA[<p>Python is a versatile and powerful programming language that has many features and built-in functions to manipulate different types of data. One of the common tasks that Python programmers encounter is converting a list of characters into a string. A list of characters is a sequence of individual characters, such as [&#8216;H&#8217;, &#8216;e&#8217;, &#8216;l&#8217;, &#8216;l&#8217;,&#8230;&#160;<a href="https://cse.uniqwe.com/convert-a-list-of-characters-into-a-string-in-python/" class="" rel="bookmark">Read More &#187;<span class="screen-reader-text">Convert a list of characters into a string in Python</span></a></p>
+<p>The post <a rel="nofollow" href="https://cse.uniqwe.com/convert-a-list-of-characters-into-a-string-in-python/">Convert a list of characters into a string in Python</a> appeared first on <a rel="nofollow" href="https://cse.uniqwe.com/">Computer Science and Engineering</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[
+<p>Python is a versatile and powerful programming language that has many features and built-in functions to manipulate different types of data. One of the common tasks that Python programmers encounter is converting a list of characters into a string. A list of characters is a sequence of individual characters, such as [&#8216;H&#8217;, &#8216;e&#8217;, &#8216;l&#8217;, &#8216;l&#8217;, &#8216;o&#8217;]. A string is a sequence of characters enclosed in quotes, such as &#8220;Hello&#8221;. Converting a list of characters into a string can be useful for various purposes, such as formatting output, concatenating strings, or performing operations on strings.</p>
+
+
+
+<p>In this blog post, we will explore five different ways to convert a list of characters into a string in Python. We will also compare the advantages and disadvantages of each method, and provide some examples to illustrate how they work.</p>
+
+
+
+<h2 class="wp-block-heading">Method 1: Using the join() method</h2>
+
+
+
+<p>The <a href="https://www.w3schools.com/python/ref_string_join.asp">join() method</a> is a string method that takes an iterable (such as a list) as an argument and returns a string that is the concatenation of the elements in the iterable. The join() method uses the string that calls it as a separator between the elements. For example, if we have a list of characters [&#8216;H&#8217;, &#8216;e&#8217;, &#8216;l&#8217;, &#8216;l&#8217;, &#8216;o&#8217;], we can use the join() method with an empty string &#8221; as the separator to convert it into a string &#8220;Hello&#8221;.</p>
+
+
+
+<div class="wp-block-codemirror-blocks-code-block code-block"><pre class="CodeMirror" data-setting="{&quot;mode&quot;:&quot;python&quot;,&quot;mime&quot;:&quot;text/x-python&quot;,&quot;theme&quot;:&quot;react&quot;,&quot;lineNumbers&quot;:true,&quot;styleActiveLine&quot;:true,&quot;lineWrapping&quot;:false,&quot;readOnly&quot;:true,&quot;hasCustomCSS&quot;:false,&quot;customCSS&quot;:&quot;&quot;,&quot;otterConditions&quot;:[],&quot;language&quot;:&quot;Python&quot;,&quot;modeName&quot;:&quot;python&quot;}"># Define a list of characters
+char_list = ['H', 'e', 'l', 'l', 'o']
+
+# Use the join() method with an empty string as the separator
+string = ''.join(char_list)
+
+# Print the result
+print(string) # Hello</pre></div>
+
+
+
+<p><strong>Advantages</strong>:</p>
+
+
+
+<ul>
+<li>The join() method is simple and concise, and does not require importing any modules or libraries.</li>
+
+
+
+<li>The join() method is flexible and can use any string as the separator, which can be useful for adding spaces, commas, or other characters between the elements in the list.</li>
+
+
+
+<li>The join() method is efficient and fast, as it only creates one new string object and does not use any loops or intermediate variables.</li>
+</ul>
+
+
+
+<p><strong>Disadvantages</strong>:</p>
+
+
+
+<ul>
+<li>The join() method only works with iterables that contain strings or characters. If the list contains any other type of data, such as numbers or booleans, the join() method will raise a TypeError exception.</li>
+
+
+
+<li>The join() method may not be intuitive for beginners, as it requires calling the method on the separator string rather than on the list itself.</li>
+</ul>
+
+
+
+<h2 class="wp-block-heading">Method 2: Using the str() function and list comprehension</h2>
+
+
+
+<p>The str() function is a built-in function that takes any object as an argument and returns a string representation of that object. A list comprehension is a concise way to create a new list from an existing iterable by applying some expression or condition to each element. For example, if we have a list of numbers [1, 2, 3], we can use a list comprehension to create a new list of strings [&#8216;1&#8217;, &#8216;2&#8217;, &#8216;3&#8217;] by applying the str() function to each element.</p>
+
+
+
+<div class="wp-block-codemirror-blocks-code-block code-block"><pre class="CodeMirror" data-setting="{&quot;mode&quot;:&quot;python&quot;,&quot;mime&quot;:&quot;text/x-python&quot;,&quot;theme&quot;:&quot;react&quot;,&quot;lineNumbers&quot;:true,&quot;styleActiveLine&quot;:true,&quot;lineWrapping&quot;:false,&quot;readOnly&quot;:true,&quot;hasCustomCSS&quot;:false,&quot;customCSS&quot;:&quot;&quot;,&quot;otterConditions&quot;:[],&quot;language&quot;:&quot;Python&quot;,&quot;modeName&quot;:&quot;python&quot;}"># Define a list of numbers
+num_list = [1, 2, 3]
+
+# Use a list comprehension to apply the str() function to each element
+str_list = [str(x) for x in num_list]
+
+# Print the result
+print(str_list) #['1', '2', '3']</pre></div>
+
+
+
+<p>To convert a list of characters into a string using this method, we can use a list comprehension to apply the str() function to each element in the list, and then use the join() method with an empty string as the separator to concatenate them. For example:</p>
+
+
+
+<div class="wp-block-codemirror-blocks-code-block code-block"><pre class="CodeMirror" data-setting="{&quot;mode&quot;:&quot;python&quot;,&quot;mime&quot;:&quot;text/x-python&quot;,&quot;theme&quot;:&quot;react&quot;,&quot;lineNumbers&quot;:true,&quot;styleActiveLine&quot;:true,&quot;lineWrapping&quot;:false,&quot;readOnly&quot;:true,&quot;hasCustomCSS&quot;:false,&quot;customCSS&quot;:&quot;&quot;,&quot;otterConditions&quot;:[],&quot;language&quot;:&quot;Python&quot;,&quot;modeName&quot;:&quot;python&quot;}"># Define a list of characters
+char_list = ['H', 'e', 'l', 'l', 'o']
+
+# Use a list comprehension to apply the str() function to each element
+str_list = [str(x) for x in char_list]
+
+# Use the join() method with an empty string as the separator
+string = ''.join(str_list)
+
+# Print the result
+print(string) # Hello</pre></div>
+
+
+
+<p><strong>Advantages</strong>:</p>
+
+
+
+<ul>
+<li>The str() function and list comprehension can handle any type of data in the list, not just strings or characters. If the list contains numbers or booleans, they will be converted into strings automatically.</li>
+
+
+
+<li>The str() function and list comprehension are also simple and concise, and do not require importing any modules or libraries.</li>
+</ul>
+
+
+
+<p><strong>Disadvantages</strong>:</p>
+
+
+
+<ul>
+<li>The str() function and list comprehension are less efficient and slower than the join() method alone, as they create two new lists (one for applying the str() function and one for joining) and use more memory.</li>
+
+
+
+<li>The str() function and list comprehension may also be less readable and intuitive than the join()</li>
+</ul>
+
+
+
+<h2 class="wp-block-heading">Method 3: Using a loop and concat operator</h2>
+
+
+
+<p>A for loop is a control flow statement that iterates over an iterable (such as a list) and executes a block of code for each element. We can use a for loop to convert a list of characters into a string by initializing an empty string and appending each character to it using the += operator. For example, if we have a list of characters called chars, we can use a for loop to convert it into a string:</p>
+
+
+
+<div class="wp-block-codemirror-blocks-code-block code-block"><pre class="CodeMirror" data-setting="{&quot;mode&quot;:&quot;python&quot;,&quot;mime&quot;:&quot;text/x-python&quot;,&quot;theme&quot;:&quot;react&quot;,&quot;lineNumbers&quot;:true,&quot;styleActiveLine&quot;:true,&quot;lineWrapping&quot;:false,&quot;readOnly&quot;:true,&quot;hasCustomCSS&quot;:false,&quot;customCSS&quot;:&quot;&quot;,&quot;otterConditions&quot;:[],&quot;language&quot;:&quot;Python&quot;,&quot;modeName&quot;:&quot;python&quot;}">chars = ['H', 'e', 'l', 'l', 'o']
+string = ''
+
+for char in chars:
+  string += char
+print(string) # Hello</pre></div>
+
+
+
+<p>The for loop is another way to convert a list of characters into a string in Python. It has the advantage of being intuitive and flexible, as we can modify the logic inside the loop as needed. However, it is not very efficient or pythonic, as it involves creating and updating a new variable for each iteration. It also requires more lines of code than using the join() method.</p>
+
+
+
+<h2 class="wp-block-heading">Method 4: Using reduce()</h2>
+
+
+
+<p>The reduce() function takes a function and an iterable as arguments and applies the function to each pair of elements in the iterable, starting from the left, until only one element remains. This element is the final result of the reduction. For example, if we have a list of numbers [1, 2, 3, 4] and we want to calculate their sum, we can use reduce() as follows:</p>
+
+
+
+<div class="wp-block-codemirror-blocks-code-block code-block"><pre class="CodeMirror" data-setting="{&quot;mode&quot;:&quot;python&quot;,&quot;mime&quot;:&quot;text/x-python&quot;,&quot;theme&quot;:&quot;react&quot;,&quot;lineNumbers&quot;:true,&quot;styleActiveLine&quot;:true,&quot;lineWrapping&quot;:false,&quot;readOnly&quot;:true,&quot;hasCustomCSS&quot;:false,&quot;customCSS&quot;:&quot;&quot;,&quot;otterConditions&quot;:[],&quot;language&quot;:&quot;Python&quot;,&quot;modeName&quot;:&quot;python&quot;}">from functools import reduce
+numbers = [1, 2, 3, 4]
+sum = reduce(lambda x, y: x + y, numbers)
+print(sum) # 10</pre></div>
+
+
+
+<p>The lambda expression defines an anonymous function that takes two arguments (x and y) and returns their sum. The reduce() function applies this function to each pair of elements in the list, starting from the left: <code>(1 + 2) = 3, (3 + 3) = 6, (6 + 4) = 10</code>. The final result is 10.</p>
+
+
+
+<p>To convert a list of characters into a string using reduce(), we can use a similar approach. We need to define a function that takes two characters and concatenates them into a string. Then we apply this function to each pair of characters in the list using reduce(). For example, if we have a list of characters [&#8216;H&#8217;, &#8216;e&#8217;, &#8216;l&#8217;, &#8216;l&#8217;, &#8216;o&#8217;], we can use reduce() as follows:</p>
+
+
+
+<div class="wp-block-codemirror-blocks-code-block code-block"><pre class="CodeMirror" data-setting="{&quot;mode&quot;:&quot;python&quot;,&quot;mime&quot;:&quot;text/x-python&quot;,&quot;theme&quot;:&quot;react&quot;,&quot;lineNumbers&quot;:true,&quot;styleActiveLine&quot;:true,&quot;lineWrapping&quot;:false,&quot;readOnly&quot;:true,&quot;hasCustomCSS&quot;:false,&quot;customCSS&quot;:&quot;&quot;,&quot;otterConditions&quot;:[],&quot;language&quot;:&quot;Python&quot;,&quot;modeName&quot;:&quot;python&quot;}">from functools import reduce
+
+my_list = ['H', 'e', 'l', 'l', 'o']
+my_string = reduce(lambda x, y: x + y, my_list)
+print(my_string) #Hello</pre></div>
+
+
+
+<p>The lambda expression defines an anonymous function that takes two arguments (x and y) and returns their concatenation. The reduce() function applies this function to each pair of characters in the list, starting from the left: <code>('H' + 'e') = 'He', ('He' + 'l') = 'Hel', ('Hel' + 'l') = 'Hell', ('Hell' + 'o') = 'Hello'</code>. The final result is &#8216;Hello&#8217;.</p>
+
+
+
+<h2 class="wp-block-heading">Method 5: Using map() and join() method</h2>
+
+
+
+<p>The map() function takes a function and an iterable as arguments and applies the function to each element in the iterable, returning a new iterable with the results. For example, if we have a list of numbers [1, 2, 3, 4] and we want to square each number, we can use map() as follows:</p>
+
+
+
+<div class="wp-block-codemirror-blocks-code-block code-block"><pre class="CodeMirror" data-setting="{&quot;mode&quot;:&quot;python&quot;,&quot;mime&quot;:&quot;text/x-python&quot;,&quot;theme&quot;:&quot;react&quot;,&quot;lineNumbers&quot;:true,&quot;styleActiveLine&quot;:true,&quot;lineWrapping&quot;:false,&quot;readOnly&quot;:true,&quot;hasCustomCSS&quot;:false,&quot;customCSS&quot;:&quot;&quot;,&quot;otterConditions&quot;:[],&quot;language&quot;:&quot;Python&quot;,&quot;modeName&quot;:&quot;python&quot;}">numbers = [1, 2, 3, 4]
+squares = map(lambda x: x ** 2, numbers)
+print(list(squares)) # [1, 4, 9, 16]</pre></div>
+
+
+
+<p>To convert a list of characters into a string using map(), we need to use another built-in function: <code>join()</code>. The <code>join()</code> method takes an iterable of strings as an argument and returns a string that is the concatenation of all the strings in the iterable, separated by the string on which the method is called. For example:</p>
+
+
+
+<div class="wp-block-codemirror-blocks-code-block code-block"><pre class="CodeMirror" data-setting="{&quot;mode&quot;:&quot;python&quot;,&quot;mime&quot;:&quot;text/x-python&quot;,&quot;theme&quot;:&quot;react&quot;,&quot;lineNumbers&quot;:true,&quot;styleActiveLine&quot;:true,&quot;lineWrapping&quot;:false,&quot;readOnly&quot;:true,&quot;hasCustomCSS&quot;:false,&quot;customCSS&quot;:&quot;&quot;,&quot;otterConditions&quot;:[],&quot;language&quot;:&quot;Python&quot;,&quot;modeName&quot;:&quot;python&quot;}">words = ['Hello', 'world']
+sentence = ' '.join(words)
+print(sentence) # Hello world</pre></div>
+
+
+
+<p>The join() method was called on the string <code>' '</code>, which is used as the separator between the words in the list. The method returns a string that is the concatenation of all the words in the list.</p>
+
+
+
+<p>To use join() with a list of characters, we need to convert each character into a string first. We can do this using map() with a simple identity function that returns its argument unchanged. For example:</p>
+
+
+
+<div class="wp-block-codemirror-blocks-code-block code-block"><pre class="CodeMirror" data-setting="{&quot;mode&quot;:&quot;python&quot;,&quot;mime&quot;:&quot;text/x-python&quot;,&quot;theme&quot;:&quot;react&quot;,&quot;lineNumbers&quot;:true,&quot;styleActiveLine&quot;:true,&quot;lineWrapping&quot;:false,&quot;readOnly&quot;:true,&quot;hasCustomCSS&quot;:false,&quot;customCSS&quot;:&quot;&quot;,&quot;otterConditions&quot;:[],&quot;language&quot;:&quot;Python&quot;,&quot;modeName&quot;:&quot;python&quot;}">chars = ['H', 'e', 'l', 'l', 'o']
+strings = map(str, chars)
+string = ''.join(strings)
+print(string) # Hello</pre></div>
+
+
+
+<p>The map() function applies the <code>str</code> function to each character in the list and returns a new iterable with the same characters as strings. The <code>join()</code> method is called on the empty string &#8221;, which is used as the separator between the characters in the list. The method returns a string that is the concatenation of all the characters in the list.</p>
+
+
+
+<h2 class="wp-block-heading">Summary</h2>
+
+
+
+<p>In this blog post, we learned how to convert a list of characters into a string in Python. We saw three common methods: using the <code>join()</code> method, using list comprehension, and using the <code>map()</code> function as <code>join()</code> function parameter. We hope you found this post helpful and informative. Happy coding!</p>
+<p>The post <a rel="nofollow" href="https://cse.uniqwe.com/convert-a-list-of-characters-into-a-string-in-python/">Convert a list of characters into a string in Python</a> appeared first on <a rel="nofollow" href="https://cse.uniqwe.com/">Computer Science and Engineering</a>.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>How to remove an element from a list by index in Python</title>
+		<link>https://cse.uniqwe.com/how-to-remove-an-element-from-a-list-by-index-in-python/</link>
+		
+		<dc:creator><![CDATA[uniqwe]]></dc:creator>
+		<pubDate>Wed, 05 Apr 2023 07:33:03 +0000</pubDate>
+				<category><![CDATA[Python]]></category>
+		<category><![CDATA[Python list]]></category>
+		<guid isPermaLink="false">https://cse.uniqwe.com/?p=442</guid>
+
+					<description><![CDATA[<p>In this blog post, we will learn how to remove an element from a list by index in Python. A list is a mutable and ordered collection of items that can be of different types. An index is a numerical value that represents the position of an element in a list. The first element has&#8230;&#160;<a href="https://cse.uniqwe.com/how-to-remove-an-element-from-a-list-by-index-in-python/" class="" rel="bookmark">Read More &#187;<span class="screen-reader-text">How to remove an element from a list by index in Python</span></a></p>
+<p>The post <a rel="nofollow" href="https://cse.uniqwe.com/how-to-remove-an-element-from-a-list-by-index-in-python/">How to remove an element from a list by index in Python</a> appeared first on <a rel="nofollow" href="https://cse.uniqwe.com/">Computer Science and Engineering</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[
+<p>In this blog post, we will learn how to remove an element from a list by index in Python. A list is a mutable and ordered collection of items that can be of different types. An index is a numerical value that represents the position of an element in a list. The first element has an index of 0, the second element has an index of 1, and so on.</p>
+
+
+
+<h2 class="wp-block-heading">Use the pop() method:</h2>
+
+
+
+<p>This method takes an optional index as an argument and returns the element at that index after removing it from the list. If no index is given, it removes and returns the last element of the list. For example:</p>
+
+
+
+<div class="wp-block-codemirror-blocks-code-block code-block"><pre class="CodeMirror" data-setting="{&quot;mode&quot;:&quot;python&quot;,&quot;mime&quot;:&quot;text/x-python&quot;,&quot;theme&quot;:&quot;react&quot;,&quot;lineNumbers&quot;:true,&quot;styleActiveLine&quot;:true,&quot;lineWrapping&quot;:false,&quot;readOnly&quot;:true,&quot;hasCustomCSS&quot;:false,&quot;customCSS&quot;:&quot;&quot;,&quot;otterConditions&quot;:[],&quot;language&quot;:&quot;Python&quot;,&quot;modeName&quot;:&quot;python&quot;}"># create a list of fruits
+fruits = [&quot;apple&quot;, &quot;banana&quot;, &quot;cherry&quot;, &quot;date&quot;, &quot;elderberry&quot;]
+
+# remove and return the element at index 2
+fruit = fruits.pop(2)
+
+# print the removed element and the updated list
+print(fruit) # cherry
+print(fruits) # [&quot;apple&quot;, &quot;banana&quot;, &quot;date&quot;, &quot;elderberry&quot;]</pre></div>
+
+
+
+<p>This will remove the element at index 2 from fruits, assign it to the variable fruit, and print it. It will also shift the remaining elements to the left. Note that this will also modify the original list and return the removed element.</p>
+
+
+
+<h2 class="wp-block-heading">Use the del statement:</h2>
+
+
+
+<p>This <a href="https://www.w3schools.com/python/ref_keyword_del.asp">statement </a>deletes an element from a list by index without returning it. It can also delete a slice of elements from a list by specifying a range of indices. For example:</p>
+
+
+
+<div class="wp-block-codemirror-blocks-code-block code-block"><pre class="CodeMirror" data-setting="{&quot;mode&quot;:&quot;python&quot;,&quot;mime&quot;:&quot;text/x-python&quot;,&quot;theme&quot;:&quot;react&quot;,&quot;lineNumbers&quot;:true,&quot;styleActiveLine&quot;:true,&quot;lineWrapping&quot;:false,&quot;readOnly&quot;:true,&quot;hasCustomCSS&quot;:false,&quot;customCSS&quot;:&quot;&quot;,&quot;otterConditions&quot;:[],&quot;language&quot;:&quot;Python&quot;,&quot;modeName&quot;:&quot;python&quot;}"># create a list of numbers
+numbers = [1, 2, 3, 4, 5]
+
+# delete the element at index 3
+del numbers[3]
+
+# print the updated list
+print(numbers) # [1, 2, 3, 5]
+
+# delete the elements from index 1 to 3 (excluding 3)
+del numbers[1:3]
+
+# print the updated list
+print(numbers) # [1, 5]</pre></div>
+
+
+
+<p>The del statement is a way to delete an object from memory. You can use it to delete an element from a list by specifying its index. Both del and pop are useful ways to remove an element from a list by index in Python. However, they have some differences that you should be aware of. Here are some of them:</p>
+
+
+
+<ul>
+<li>del is faster than pop because it does not return anything.</li>
+
+
+
+<li>pop is safer than del because it does not raise an exception if the index is out of range. Instead, it returns None.</li>
+
+
+
+<li>del can delete multiple elements at once by using slicing. For example, del <code>fruits[1:3]</code> will delete the elements at indices 1 and 2 from fruits.</li>
+
+
+
+<li>pop can only delete one element at a time by using an integer index. For example, <code>fruits.pop(1:3)</code> will raise a TypeError because pop does not accept slices.</li>
+</ul>
+
+
+
+<h2 class="wp-block-heading">Use slicing:</h2>
+
+
+
+<p>A third way to remove an element from a list by index is to use slicing. Slicing is a technique that allows us to create a new list with a subset of elements from another list. We can use slicing to create a new list without the element at a given index by excluding that index from the slice range. For example, if we have a list of fruits:</p>
+
+
+
+<div class="wp-block-codemirror-blocks-code-block code-block"><pre class="CodeMirror" data-setting="{&quot;mode&quot;:&quot;python&quot;,&quot;mime&quot;:&quot;text/x-python&quot;,&quot;theme&quot;:&quot;react&quot;,&quot;lineNumbers&quot;:true,&quot;styleActiveLine&quot;:true,&quot;lineWrapping&quot;:false,&quot;readOnly&quot;:true,&quot;hasCustomCSS&quot;:false,&quot;customCSS&quot;:&quot;&quot;,&quot;otterConditions&quot;:[],&quot;language&quot;:&quot;Python&quot;,&quot;modeName&quot;:&quot;python&quot;}">fruits = ['apple', 'banana', 'cherry', 'date', 'elderberry']
+new_list = fruits[:3] + fruits[4:]
+print(new_list) # ['apple', 'banana', 'cherry', 'elderberry']</pre></div>
+
+
+
+<p>We can create a new list without the fourth element (&#8216;date&#8217;) by using<code> fruits[:3] + fruits[4:]</code>. This will concatenate two slices: one with all elements before index 3 (exclusive) and one with all elements after index 4 (inclusive). Here is a more general example with a given index to remove:</p>
+
+
+
+<div class="wp-block-codemirror-blocks-code-block code-block"><pre class="CodeMirror" data-setting="{&quot;mode&quot;:&quot;python&quot;,&quot;mime&quot;:&quot;text/x-python&quot;,&quot;theme&quot;:&quot;react&quot;,&quot;lineNumbers&quot;:true,&quot;styleActiveLine&quot;:true,&quot;lineWrapping&quot;:false,&quot;readOnly&quot;:true,&quot;hasCustomCSS&quot;:false,&quot;customCSS&quot;:&quot;&quot;,&quot;otterConditions&quot;:[],&quot;language&quot;:&quot;Python&quot;,&quot;modeName&quot;:&quot;python&quot;}">my_list = [1, 2, 3, 4, 5]
+index_to_remove = 2
+my_list = my_list[:index_to_remove] + my_list[index_to_remove+1:]
+print(my_list) #[1, 2, 4, 5]</pre></div>
+
+
+
+<h2 class="wp-block-heading">Use list comprehension</h2>
+
+
+
+<p>List comprehension is a concise way of creating a new list from an existing one by applying some condition or transformation on each element. The syntax is:</p>
+
+
+
+<p><code><strong>new_list </strong>= [<strong>expression </strong>for item in <strong>old_list </strong>if <strong>condition</strong>]</code></p>
+
+
+
+<p>where <strong>expression </strong>is any valid Python expression that defines how to transform each item in <strong>old_list</strong>, and <strong>condition </strong>is any valid Python expression that defines which items to include in <strong>new_list</strong>.</p>
+
+
+
+<p>For example, suppose you have a list of names. If you want to create a new list with only the names that start with A or E, you can use:</p>
+
+
+
+<div class="wp-block-codemirror-blocks-code-block code-block"><pre class="CodeMirror" data-setting="{&quot;mode&quot;:&quot;python&quot;,&quot;mime&quot;:&quot;text/x-python&quot;,&quot;theme&quot;:&quot;react&quot;,&quot;lineNumbers&quot;:true,&quot;styleActiveLine&quot;:true,&quot;lineWrapping&quot;:false,&quot;readOnly&quot;:true,&quot;hasCustomCSS&quot;:false,&quot;customCSS&quot;:&quot;&quot;,&quot;otterConditions&quot;:[],&quot;language&quot;:&quot;Python&quot;,&quot;modeName&quot;:&quot;python&quot;}">names = ['Alice', 'Bob', 'Charlie', 'David', 'Eve']
+new_names = [name for name in names if name.startswith ('A') or name.startswith ('E')]
+# ['Alice', 'Eve']</pre></div>
+
+
+
+<p>This method will create a new list as in the second line below.</p>
+
+
+
+<p>You can use list comprehension to create a new list with some elements removed based on their indices by using the enumerate () function. The enumerate () function adds a counter to an iterable object and returns an enumerate object that contains pairs of (index, item). The syntax is:</p>
+
+
+
+<p><code><strong>enumerate </strong>(<strong>iterable</strong>, <strong>start</strong>=0)</code></p>
+
+
+
+<p>where the <strong>iterable </strong>argument can be any object that supports iteration, such as a list, a tuple, a string, etc. The <strong>start </strong>argument is optional and specifies the starting value of the counter. By default, it is 0.</p>
+
+
+
+<p>The enumerate object can be converted to a list or a tuple using the list() or tuple() functions. Alternatively, you can loop over the enumerate object using a for loop.</p>
+
+
+
+<p>For example, suppose you have a list of fruits. You can use the enumerate() function to get an enumerate object that contains pairs of (index, fruit):</p>
+
+
+
+<div class="wp-block-codemirror-blocks-code-block code-block"><pre class="CodeMirror" data-setting="{&quot;mode&quot;:&quot;python&quot;,&quot;mime&quot;:&quot;text/x-python&quot;,&quot;theme&quot;:&quot;react&quot;,&quot;lineNumbers&quot;:true,&quot;styleActiveLine&quot;:true,&quot;lineWrapping&quot;:false,&quot;readOnly&quot;:true,&quot;hasCustomCSS&quot;:false,&quot;customCSS&quot;:&quot;&quot;,&quot;otterConditions&quot;:[],&quot;language&quot;:&quot;Python&quot;,&quot;modeName&quot;:&quot;python&quot;}">fruits = [&quot;apple&quot;, &quot;banana&quot;, &quot;cherry&quot;, &quot;date&quot;, &quot;elderberry&quot;]
+list(enumerate(fruits)) #[(0, 'apple'), (1, 'banana'), (2, 'cherry'), (3, 'date'), (4, 'elderberry')]</pre></div>
+
+
+
+<p>Now, you can use list comprehension to create a new list with some elements removed based on their indices. For example, you can remove every third element from the list by using the modulo operator (%) to check if the index is divisible by 3:</p>
+
+
+
+<div class="wp-block-codemirror-blocks-code-block code-block"><pre class="CodeMirror" data-setting="{&quot;mode&quot;:&quot;python&quot;,&quot;mime&quot;:&quot;text/x-python&quot;,&quot;theme&quot;:&quot;react&quot;,&quot;lineNumbers&quot;:true,&quot;styleActiveLine&quot;:true,&quot;lineWrapping&quot;:false,&quot;readOnly&quot;:true,&quot;hasCustomCSS&quot;:false,&quot;customCSS&quot;:&quot;&quot;,&quot;otterConditions&quot;:[],&quot;language&quot;:&quot;Python&quot;,&quot;modeName&quot;:&quot;python&quot;}">[fruit for index, fruit in enumerate(fruits) if index % 3 != 0] #['apple', 'banana', 'elderberry']</pre></div>
+
+
+
+<p>Or you can keep only the even-indexed elements by using the modulo operator (%) to check if the index is even:</p>
+
+
+
+<div class="wp-block-codemirror-blocks-code-block code-block"><pre class="CodeMirror" data-setting="{&quot;mode&quot;:&quot;python&quot;,&quot;mime&quot;:&quot;text/x-python&quot;,&quot;theme&quot;:&quot;react&quot;,&quot;lineNumbers&quot;:true,&quot;styleActiveLine&quot;:true,&quot;lineWrapping&quot;:false,&quot;readOnly&quot;:true,&quot;hasCustomCSS&quot;:false,&quot;customCSS&quot;:&quot;&quot;,&quot;otterConditions&quot;:[],&quot;language&quot;:&quot;Python&quot;,&quot;modeName&quot;:&quot;python&quot;}">[fruit for index, fruit in enumerate(fruits) if index % 2 == 0] #['apple', 'cherry', 'elderberry']</pre></div>
+
+
+
+<p>You can also use any other condition that involves the index to filter the list. For example, you can keep only the elements whose index is less than the length of the list divided by 2:</p>
+
+
+
+<div class="wp-block-codemirror-blocks-code-block code-block"><pre class="CodeMirror" data-setting="{&quot;mode&quot;:&quot;python&quot;,&quot;mime&quot;:&quot;text/x-python&quot;,&quot;theme&quot;:&quot;react&quot;,&quot;lineNumbers&quot;:true,&quot;styleActiveLine&quot;:true,&quot;lineWrapping&quot;:false,&quot;readOnly&quot;:true,&quot;hasCustomCSS&quot;:false,&quot;customCSS&quot;:&quot;&quot;,&quot;otterConditions&quot;:[],&quot;language&quot;:&quot;Python&quot;,&quot;modeName&quot;:&quot;python&quot;}">[fruit for index, fruit in enumerate(fruits) if index &lt; len(fruits) / 2] #['apple', 'banana']</pre></div>
+
+
+
+<h2 class="wp-block-heading">Summary</h2>
+
+
+
+<p>We have introduced some of the ways to remove an element from a list by index in Python. We hope you found this blog post helpful and informative. If you have any questions or feedback, please leave a comment below. Thank you for reading!</p>
+<p>The post <a rel="nofollow" href="https://cse.uniqwe.com/how-to-remove-an-element-from-a-list-by-index-in-python/">How to remove an element from a list by index in Python</a> appeared first on <a rel="nofollow" href="https://cse.uniqwe.com/">Computer Science and Engineering</a>.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>How to sort a Set in JavaScript</title>
+		<link>https://cse.uniqwe.com/how-to-sort-a-set-in-javascript/</link>
+		
+		<dc:creator><![CDATA[uniqwe]]></dc:creator>
+		<pubDate>Mon, 03 Apr 2023 16:38:23 +0000</pubDate>
+				<category><![CDATA[JavaScript]]></category>
+		<guid isPermaLink="false">https://cse.uniqwe.com/?p=363</guid>
+
+					<description><![CDATA[<p>A Set in JavaScript is a special kind of object that stores distinct elements. The set can store both primitive as well as objects. When iterating over the set object, it returns the elements in the same order as inserted. However, sets are not ordered abstract data structures, so there is no sort() method available&#8230;&#160;<a href="https://cse.uniqwe.com/how-to-sort-a-set-in-javascript/" class="" rel="bookmark">Read More &#187;<span class="screen-reader-text">How to sort a Set in JavaScript</span></a></p>
+<p>The post <a rel="nofollow" href="https://cse.uniqwe.com/how-to-sort-a-set-in-javascript/">How to sort a Set in JavaScript</a> appeared first on <a rel="nofollow" href="https://cse.uniqwe.com/">Computer Science and Engineering</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[
+<p>A Set in JavaScript is a special kind of object that stores distinct elements. The set can store both primitive as well as objects. When iterating over the set object, it returns the elements in the same order as inserted. However, sets are not ordered abstract data structures, so there is no sort() method available on them. So how can we sort a set in JavaScript according to the value of the elements?</p>
+
+
+
+<h2 class="wp-block-heading">Use the sort() method</h2>
+
+
+
+<p>One way of achieving this is to use the built-in <code>sort()</code> method of arrays. But, the <code>sort()</code> method can’t be directly implemented on sets, rather we need to convert the set into an array first, then sort the array, and then convert the array back to a set. This may sound complicated, but it&#8217;s actually quite simple with some JavaScript methods.</p>
+
+
+
+<p>Let&#8217;s see an example of how to do this. Suppose we have a set of numbers that we want to sort in ascending order:</p>
+
+
+
+<div class="wp-block-codemirror-blocks-code-block code-block"><pre class="CodeMirror" data-setting="{&quot;mode&quot;:&quot;javascript&quot;,&quot;mime&quot;:&quot;text/javascript&quot;,&quot;theme&quot;:&quot;react&quot;,&quot;lineNumbers&quot;:true,&quot;styleActiveLine&quot;:true,&quot;lineWrapping&quot;:false,&quot;readOnly&quot;:true,&quot;hasCustomCSS&quot;:false,&quot;customCSS&quot;:&quot;&quot;,&quot;otterConditions&quot;:[],&quot;language&quot;:&quot;JavaScript&quot;,&quot;modeName&quot;:&quot;js&quot;}">let mySet = new Set([3, 2, 9, 6]);
+console.log(mySet); // Set(4) {3, 2, 9, 6}</pre></div>
+
+
+
+<p>To convert the set into an array, we can use the <code>Array.from()</code> method, which creates a new array from an iterable object like a set:</p>
+
+
+
+<div class="wp-block-codemirror-blocks-code-block code-block"><pre class="CodeMirror" data-setting="{&quot;mode&quot;:&quot;javascript&quot;,&quot;mime&quot;:&quot;text/javascript&quot;,&quot;theme&quot;:&quot;react&quot;,&quot;lineNumbers&quot;:true,&quot;styleActiveLine&quot;:true,&quot;lineWrapping&quot;:false,&quot;readOnly&quot;:true,&quot;hasCustomCSS&quot;:false,&quot;customCSS&quot;:&quot;&quot;,&quot;otterConditions&quot;:[],&quot;language&quot;:&quot;JavaScript&quot;,&quot;modeName&quot;:&quot;js&quot;}">let myArray = Array.from(mySet);
+console.log(myArray); // [3, 2, 9, 6]</pre></div>
+
+
+
+<p>Now we can use the <code>sort()</code> method on the array to sort it in place. The <code>sort()</code> method takes an optional compare function that defines the sort order. If omitted, the array elements are converted to strings and sorted according to their Unicode code point values. For numbers, this may not give us the desired result, so we can provide a simple compare function that compares two numbers and returns a negative value if the first one is smaller than the second one, a positive value if the first one is larger than the second one, or zero if they are equal:</p>
+
+
+
+<div class="wp-block-codemirror-blocks-code-block code-block"><pre class="CodeMirror" data-setting="{&quot;mode&quot;:&quot;javascript&quot;,&quot;mime&quot;:&quot;text/javascript&quot;,&quot;theme&quot;:&quot;react&quot;,&quot;lineNumbers&quot;:true,&quot;styleActiveLine&quot;:true,&quot;lineWrapping&quot;:false,&quot;readOnly&quot;:true,&quot;hasCustomCSS&quot;:false,&quot;customCSS&quot;:&quot;&quot;,&quot;otterConditions&quot;:[],&quot;language&quot;:&quot;JavaScript&quot;,&quot;modeName&quot;:&quot;js&quot;}">myArray.sort((a, b) =&gt; a - b);
+console.log(myArray); // [2, 3, 6, 9]</pre></div>
+
+
+
+<p>Finally, we can convert the sorted array back to a set using the Set constructor, which takes an iterable object as an argument and creates a new set with its elements:</p>
+
+
+
+<div class="wp-block-codemirror-blocks-code-block code-block"><pre class="CodeMirror" data-setting="{&quot;mode&quot;:&quot;javascript&quot;,&quot;mime&quot;:&quot;text/javascript&quot;,&quot;theme&quot;:&quot;react&quot;,&quot;lineNumbers&quot;:true,&quot;styleActiveLine&quot;:true,&quot;lineWrapping&quot;:false,&quot;readOnly&quot;:true,&quot;hasCustomCSS&quot;:false,&quot;customCSS&quot;:&quot;&quot;,&quot;otterConditions&quot;:[],&quot;language&quot;:&quot;JavaScript&quot;,&quot;modeName&quot;:&quot;js&quot;}">mySet = new Set(myArray);
+console.log(mySet); // Set(4) {2, 3, 6, 9}</pre></div>
+
+
+
+<h2 class="wp-block-heading">Sort a set of strings using the localeCompare() method</h2>
+
+
+
+<p>And that&#8217;s it! We have successfully sorted a set in JavaScript using arrays. This method works for any type of elements that can be compared by a compare function. For example, if we have a set of strings that we want to sort alphabetically, we can use the same approach but with a different compare function that compares two strings lexicographically using the localeCompare() method:</p>
+
+
+
+<div class="wp-block-codemirror-blocks-code-block code-block"><pre class="CodeMirror" data-setting="{&quot;mode&quot;:&quot;javascript&quot;,&quot;mime&quot;:&quot;text/javascript&quot;,&quot;theme&quot;:&quot;react&quot;,&quot;lineNumbers&quot;:true,&quot;styleActiveLine&quot;:true,&quot;lineWrapping&quot;:false,&quot;readOnly&quot;:true,&quot;hasCustomCSS&quot;:false,&quot;customCSS&quot;:&quot;&quot;,&quot;otterConditions&quot;:[],&quot;language&quot;:&quot;JavaScript&quot;,&quot;modeName&quot;:&quot;js&quot;}">let mySet = new Set([&quot;banana&quot;, &quot;cherry&quot;, &quot;apple&quot;, &quot;orange&quot;]);
+console.log(mySet); // Set(4) {&quot;banana&quot;, &quot;cherry&quot;, &quot;apple&quot;, &quot;orange&quot;}
+
+let myArray = Array.from(mySet);
+console.log(myArray); // [&quot;banana&quot;, &quot;cherry&quot;, &quot;apple&quot;, &quot;orange&quot;]
+
+myArray.sort((a, b) =&gt; a.localeCompare(b));
+console.log(myArray); // [&quot;apple&quot;, &quot;banana&quot;, &quot;cherry&quot;, &quot;orange&quot;]
+
+mySet = new Set(myArray);
+console.log(mySet); // Set(4) {&quot;apple&quot;, &quot;banana&quot;, &quot;cherry&quot;, &quot;orange&quot;}</pre></div>
+
+
+
+<p>As you can see, sorting a set in JavaScript is not impossible, but it requires some extra steps and some knowledge of arrays and compare functions. Hopefully this blog post has helped you understand how to do it and why it works. Happy coding!</p>
+
+
+
+<p></p>
+<p>The post <a rel="nofollow" href="https://cse.uniqwe.com/how-to-sort-a-set-in-javascript/">How to sort a Set in JavaScript</a> appeared first on <a rel="nofollow" href="https://cse.uniqwe.com/">Computer Science and Engineering</a>.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+	</channel>
+</rss>

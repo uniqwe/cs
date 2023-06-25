@@ -1,0 +1,516 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Python list Archives - Computer Science and Engineering</title>
+	<atom:link href="https://cse.uniqwe.com/tag/python-list/feed/" rel="self" type="application/rss+xml" />
+	<link>https://cse.uniqwe.com/tag/python-list/</link>
+	<description>Uniqwe</description>
+	<lastBuildDate>Sun, 16 Apr 2023 04:18:59 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.2.2</generator>
+
+<image>
+	<url>https://cse.uniqwe.com/wp-content/uploads/2023/04/cropped-photo1679071723-32x32.png</url>
+	<title>Python list Archives - Computer Science and Engineering</title>
+	<link>https://cse.uniqwe.com/tag/python-list/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>How to Convert a comma-separated string to a List in Python</title>
+		<link>https://cse.uniqwe.com/how-to-convert-a-comma-separated-string-to-a-list-in-python/</link>
+		
+		<dc:creator><![CDATA[uniqwe]]></dc:creator>
+		<pubDate>Sun, 16 Apr 2023 04:14:41 +0000</pubDate>
+				<category><![CDATA[Python]]></category>
+		<category><![CDATA[Python list]]></category>
+		<category><![CDATA[Python strings]]></category>
+		<guid isPermaLink="false">https://cse.uniqwe.com/?p=535</guid>
+
+					<description><![CDATA[<p>In Python, it is common to encounter data in the form of comma-separated strings. These strings can contain various types of data, such as numbers, words, or even entire sentences. However, when working with this type of data, it is often necessary to convert it into a more usable format, such as a list. In&#8230;&#160;<a href="https://cse.uniqwe.com/how-to-convert-a-comma-separated-string-to-a-list-in-python/" class="" rel="bookmark">Read More &#187;<span class="screen-reader-text">How to Convert a comma-separated string to a List in Python</span></a></p>
+<p>The post <a rel="nofollow" href="https://cse.uniqwe.com/how-to-convert-a-comma-separated-string-to-a-list-in-python/">How to Convert a comma-separated string to a List in Python</a> appeared first on <a rel="nofollow" href="https://cse.uniqwe.com/">Computer Science and Engineering</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[
+<p>In Python, it is common to encounter data in the form of comma-separated strings. These strings can contain various types of data, such as numbers, words, or even entire sentences. However, when working with this type of data, it is often necessary to convert it into a more usable format, such as a list. In this article, we will explore How to Convert a comma-separated string to a List in Python, and provide exercises for practice.</p>
+
+
+
+<h2 class="wp-block-heading">How to Convert a comma-separated string to a List in Python</h2>
+
+
+
+<p>To convert a comma-separated string to a list in Python:</p>
+
+
+
+<ol>
+<li>Call the&nbsp;<code>split()</code>&nbsp;method directly on the string object or literal</li>
+
+
+
+<li><strong>Pass a comma character as the separator argument</strong>, like:&nbsp;<code>string.split(',')</code> </li>
+
+
+
+<li>This will return a list of substrings that are separated by commas. </li>
+</ol>
+
+
+
+<p>For example: </p>
+
+
+
+<ul>
+<li><code>"apple,banana,orange,grape".split(",")</code> will return <code>['apple', 'banana', 'orange', 'grape']</code>.</li>
+
+
+
+<li><code>"1,2,3,4,5".split(",")</code> will return <code>['1', '2', '3', '4', '5']</code>.</li>
+
+
+
+<li><code>"John,Doe,25,Male".split(",")</code> will return <code>['John', 'Doe', '25', 'Male']</code>.</li>
+
+
+
+<li><code>"Hello, World!".split(",")</code> will return <code>['Hello', ' World!']</code>.</li>
+
+
+
+<li><code>"The quick brown fox jumps over the lazy dog".split(",")</code> will return <code>['The quick brown fox jumps over the lazy dog']</code></li>
+</ul>
+
+
+
+<p>If you have understood these examples, let&#8217;s try it yourself:</p>
+
+
+
+<div class="wp-block-codemirror-blocks-code-block code-block"><pre class="CodeMirror" data-setting="{&quot;mode&quot;:&quot;python&quot;,&quot;mime&quot;:&quot;text/x-python&quot;,&quot;theme&quot;:&quot;react&quot;,&quot;lineNumbers&quot;:true,&quot;styleActiveLine&quot;:true,&quot;lineWrapping&quot;:false,&quot;readOnly&quot;:false,&quot;hasCustomCSS&quot;:false,&quot;customCSS&quot;:&quot;&quot;,&quot;otterConditions&quot;:[],&quot;language&quot;:&quot;Python&quot;,&quot;modeName&quot;:&quot;python&quot;}">def solution(string):
+  # Convert a comma-separated string to a List
+  result = 
+  
+  # Return the variable below
+  return 
+
+  # Your code ends here
+  
+# Test the solution function
+result = solution(&quot;red,green,blue,yellow&quot;) 
+print(result) # Expected output: ['red','green','blue','yellow']</pre></div>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-full is-resized"><img decoding="async" src="https://cse.uniqwe.com/wp-content/uploads/2023/04/image.png" alt="" class="wp-image-539" width="526" height="526" srcset="https://cse.uniqwe.com/wp-content/uploads/2023/04/image.png 600w, https://cse.uniqwe.com/wp-content/uploads/2023/04/image-300x300.png 300w, https://cse.uniqwe.com/wp-content/uploads/2023/04/image-150x150.png 150w" sizes="(max-width: 526px) 100vw, 526px" /></figure></div>
+
+
+<h2 class="wp-block-heading">Exercises to practice</h2>
+
+
+
+<p>Write a program that takes a <a href="https://docs.python.org/3/library/string.html">string</a> of comma-separated numbers and returns the sum of those numbers. Here is the solution:</p>
+
+
+
+<div class="wp-block-codemirror-blocks-code-block code-block"><pre class="CodeMirror" data-setting="{&quot;mode&quot;:&quot;python&quot;,&quot;mime&quot;:&quot;text/x-python&quot;,&quot;theme&quot;:&quot;react&quot;,&quot;lineNumbers&quot;:true,&quot;styleActiveLine&quot;:true,&quot;lineWrapping&quot;:false,&quot;readOnly&quot;:true,&quot;hasCustomCSS&quot;:false,&quot;customCSS&quot;:&quot;&quot;,&quot;otterConditions&quot;:[],&quot;language&quot;:&quot;Python&quot;,&quot;modeName&quot;:&quot;python&quot;}">def sum_of_numbers(string):
+    numbers = string.split(&quot;,&quot;)
+    total = 0
+    for num in numbers:
+        total += int(num)
+    return total
+
+string = &quot;1,2,3,4,5&quot;
+print(sum_of_numbers(string)) # Output: 15</pre></div>
+
+
+
+<p>Write a function that takes a string of comma-separated words and returns a list of those words sorted alphabetically. Here is the solution:</p>
+
+
+
+<div class="wp-block-codemirror-blocks-code-block code-block"><pre class="CodeMirror" data-setting="{&quot;mode&quot;:&quot;python&quot;,&quot;mime&quot;:&quot;text/x-python&quot;,&quot;theme&quot;:&quot;react&quot;,&quot;lineNumbers&quot;:true,&quot;styleActiveLine&quot;:true,&quot;lineWrapping&quot;:false,&quot;readOnly&quot;:true,&quot;hasCustomCSS&quot;:false,&quot;customCSS&quot;:&quot;&quot;,&quot;otterConditions&quot;:[],&quot;language&quot;:&quot;Python&quot;,&quot;modeName&quot;:&quot;python&quot;}">def sort_words(string):
+    words = string.split(&quot;,&quot;)
+    sorted_words = sorted(words)
+    return sorted_words
+
+string = &quot;apple,banana,orange,grape&quot;
+print(sort_words(string)) # Output: ['apple', 'banana', 'grape', 'orange']</pre></div>
+
+
+
+<p>Write a program that takes a string of comma-separated values representing a person&#8217;s name, age, and gender, and prints out a sentence introducing that person (e.g. &#8220;Hello, my name is John Doe and I am a 25-year-old male.&#8221;). Here is the solution:</p>
+
+
+
+<div class="wp-block-codemirror-blocks-code-block code-block"><pre class="CodeMirror" data-setting="{&quot;mode&quot;:&quot;python&quot;,&quot;mime&quot;:&quot;text/x-python&quot;,&quot;theme&quot;:&quot;react&quot;,&quot;lineNumbers&quot;:true,&quot;styleActiveLine&quot;:true,&quot;lineWrapping&quot;:false,&quot;readOnly&quot;:true,&quot;hasCustomCSS&quot;:false,&quot;customCSS&quot;:&quot;&quot;,&quot;otterConditions&quot;:[],&quot;language&quot;:&quot;Python&quot;,&quot;modeName&quot;:&quot;python&quot;}">def introduce_person(string):
+    info = string.split(&quot;,&quot;)
+    name = info[0]
+    age = info[1]
+    gender = info[2]
+    return f&quot;Hello, my name is {name} and I am a {age}-year-old {gender}.&quot;
+
+string = &quot;John Doe,25,male&quot;
+print(introduce_person(string)) # Output: Hello, my name is John Doe and I am a 25-year-old male.</pre></div>
+
+
+
+<p>Write a function that takes a string of comma-separated values representing a grocery list, and returns a dictionary where the keys are the items on the list and the values are their quantities. Here is the solution:</p>
+
+
+
+<div class="wp-block-codemirror-blocks-code-block code-block"><pre class="CodeMirror" data-setting="{&quot;mode&quot;:&quot;python&quot;,&quot;mime&quot;:&quot;text/x-python&quot;,&quot;theme&quot;:&quot;react&quot;,&quot;lineNumbers&quot;:true,&quot;styleActiveLine&quot;:true,&quot;lineWrapping&quot;:false,&quot;readOnly&quot;:true,&quot;hasCustomCSS&quot;:false,&quot;customCSS&quot;:&quot;&quot;,&quot;otterConditions&quot;:[],&quot;language&quot;:&quot;Python&quot;,&quot;modeName&quot;:&quot;python&quot;}">def grocery_list(string):
+    items = string.split(&quot;,&quot;)
+    grocery_dict = {}
+    for item in items:
+        if item in grocery_dict:
+            grocery_dict[item] += 1
+        else:
+            grocery_dict[item] = 1
+    return grocery_dict
+
+string = &quot;apple,banana,orange,apple,grape&quot;
+print(grocery_list(string)) # Output: {'apple': 2, 'banana': 1, 'orange': 1, 'grape': 1}</pre></div>
+
+
+
+<p>Write a program that takes a string of comma-separated sentences and prints out the longest sentence in the string. Below is the solution:</p>
+
+
+
+<div class="wp-block-codemirror-blocks-code-block code-block"><pre class="CodeMirror" data-setting="{&quot;mode&quot;:&quot;python&quot;,&quot;mime&quot;:&quot;text/x-python&quot;,&quot;theme&quot;:&quot;react&quot;,&quot;lineNumbers&quot;:true,&quot;styleActiveLine&quot;:true,&quot;lineWrapping&quot;:false,&quot;readOnly&quot;:true,&quot;hasCustomCSS&quot;:false,&quot;customCSS&quot;:&quot;&quot;,&quot;otterConditions&quot;:[],&quot;language&quot;:&quot;Python&quot;,&quot;modeName&quot;:&quot;python&quot;}">def longest_sentence(string):
+    sentences = string.split(&quot;,&quot;)
+    longest = &quot;&quot;
+    for sentence in sentences:
+        if len(sentence) &gt; len(longest):
+            longest = sentence
+    return longest
+
+string = &quot;This is a short sentence, This is a longer sentence, This is the longest sentence&quot;
+print(longest_sentence(string)) # Output: This is the longest sentence</pre></div>
+
+
+
+<p>For more related topics, check out the <a href="https://cse.uniqwe.com/how-to-convert-a-string-in-python-faq/">FAQ: How to convert a string to another in Python</a>.</p>
+<p>The post <a rel="nofollow" href="https://cse.uniqwe.com/how-to-convert-a-comma-separated-string-to-a-list-in-python/">How to Convert a comma-separated string to a List in Python</a> appeared first on <a rel="nofollow" href="https://cse.uniqwe.com/">Computer Science and Engineering</a>.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Check if a string contains in a string FAQ in Python</title>
+		<link>https://cse.uniqwe.com/check-if-a-string-contains-in-a-string-faq-in-python/</link>
+		
+		<dc:creator><![CDATA[uniqwe]]></dc:creator>
+		<pubDate>Sun, 09 Apr 2023 06:16:00 +0000</pubDate>
+				<category><![CDATA[Python]]></category>
+		<category><![CDATA[Python list]]></category>
+		<category><![CDATA[Python regex]]></category>
+		<category><![CDATA[Python strings]]></category>
+		<guid isPermaLink="false">https://cse.uniqwe.com/?p=494</guid>
+
+					<description><![CDATA[<p>Recall how to check if a string contains a substring in Python Check if a string contains another string: use the in operator or the find() method. The in operator checks if a substring is inside a larger string and returns True or False. The find() method returns the index of the first occurrence of&#8230;&#160;<a href="https://cse.uniqwe.com/check-if-a-string-contains-in-a-string-faq-in-python/" class="" rel="bookmark">Read More &#187;<span class="screen-reader-text">Check if a string contains in a string FAQ in Python</span></a></p>
+<p>The post <a rel="nofollow" href="https://cse.uniqwe.com/check-if-a-string-contains-in-a-string-faq-in-python/">Check if a string contains in a string FAQ in Python</a> appeared first on <a rel="nofollow" href="https://cse.uniqwe.com/">Computer Science and Engineering</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[
+<h2 class="wp-block-heading">Recall how to check if a string contains a substring in Python</h2>
+
+
+
+<p>Check if a string contains another string: use the <strong><code>in</code> </strong>operator or the <code><strong>find()</strong></code> method. The <strong><code>in</code> </strong>operator checks if a substring is inside a larger string and returns <code>True</code> or <code>False</code>. The <code><strong>find()</strong></code> method returns the index of the first occurrence of a substring within a larger string. If the substring is not found, it returns <code><strong>-1</strong></code>.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-full is-resized"><img decoding="async" src="https://cse.uniqwe.com/wp-content/uploads/2020/01/neve-web-design-bg-11.jpg" alt="programmers" class="wp-image-38" width="418" height="418" srcset="https://cse.uniqwe.com/wp-content/uploads/2020/01/neve-web-design-bg-11.jpg 600w, https://cse.uniqwe.com/wp-content/uploads/2020/01/neve-web-design-bg-11-300x300.jpg 300w, https://cse.uniqwe.com/wp-content/uploads/2020/01/neve-web-design-bg-11-150x150.jpg 150w" sizes="(max-width: 418px) 100vw, 418px" /></figure></div>
+
+
+<p>The below content is just a recall of how to do this, since we also have a blog about this subject before, you can read it <a href="https://cse.uniqwe.com/check-if-a-string-contains-a-substring-or-a-word-in-python/">here</a>. Below is an example of checking if the string &#8220;hello world&#8221; contains the string &#8220;hello&#8221; using the in operator :</p>
+
+
+
+<div class="wp-block-codemirror-blocks-code-block code-block"><pre class="CodeMirror" data-setting="{&quot;mode&quot;:&quot;python&quot;,&quot;mime&quot;:&quot;text/x-python&quot;,&quot;theme&quot;:&quot;react&quot;,&quot;lineNumbers&quot;:true,&quot;styleActiveLine&quot;:true,&quot;lineWrapping&quot;:false,&quot;readOnly&quot;:true,&quot;hasCustomCSS&quot;:false,&quot;customCSS&quot;:&quot;&quot;,&quot;otterConditions&quot;:[],&quot;language&quot;:&quot;Python&quot;,&quot;modeName&quot;:&quot;python&quot;}">my_string = &quot;hello world&quot;
+if &quot;hello&quot; in my_string:
+    print(&quot;Substring found!&quot;)
+else:
+    print(&quot;Substring not found.&quot;)</pre></div>
+
+
+
+<p>Output:</p>
+
+
+
+<div class="wp-block-codemirror-blocks-code-block code-block"><pre class="CodeMirror" data-setting="{&quot;mode&quot;:&quot;python&quot;,&quot;mime&quot;:&quot;text/x-python&quot;,&quot;theme&quot;:&quot;react&quot;,&quot;lineNumbers&quot;:true,&quot;styleActiveLine&quot;:true,&quot;lineWrapping&quot;:false,&quot;readOnly&quot;:true,&quot;languageLabel&quot;:&quot;no&quot;,&quot;hasCustomCSS&quot;:false,&quot;customCSS&quot;:&quot;&quot;,&quot;otterConditions&quot;:[],&quot;language&quot;:&quot;Python&quot;,&quot;modeName&quot;:&quot;python&quot;}">Substring found!</pre></div>
+
+
+
+<p>Here is an example of using the <code>find()</code> method to find the substring &#8220;world&#8221; in the string &#8220;hello world&#8221;:</p>
+
+
+
+<div class="wp-block-codemirror-blocks-code-block code-block"><pre class="CodeMirror" data-setting="{&quot;mode&quot;:&quot;python&quot;,&quot;mime&quot;:&quot;text/x-python&quot;,&quot;theme&quot;:&quot;react&quot;,&quot;lineNumbers&quot;:true,&quot;styleActiveLine&quot;:true,&quot;lineWrapping&quot;:false,&quot;readOnly&quot;:true,&quot;hasCustomCSS&quot;:false,&quot;customCSS&quot;:&quot;&quot;,&quot;otterConditions&quot;:[],&quot;language&quot;:&quot;Python&quot;,&quot;modeName&quot;:&quot;python&quot;}">my_string = &quot;hello world&quot;
+index = my_string.find(&quot;world&quot;)
+if index != -1:
+    print(&quot;Substring found at index:&quot;, index)
+else:
+    print(&quot;Substring not found.&quot;)</pre></div>
+
+
+
+<p>Output:</p>
+
+
+
+<div class="wp-block-codemirror-blocks-code-block code-block"><pre class="CodeMirror" data-setting="{&quot;mode&quot;:&quot;python&quot;,&quot;mime&quot;:&quot;text/x-python&quot;,&quot;theme&quot;:&quot;react&quot;,&quot;lineNumbers&quot;:true,&quot;styleActiveLine&quot;:true,&quot;lineWrapping&quot;:false,&quot;readOnly&quot;:true,&quot;languageLabel&quot;:&quot;no&quot;,&quot;hasCustomCSS&quot;:false,&quot;customCSS&quot;:&quot;&quot;,&quot;otterConditions&quot;:[],&quot;language&quot;:&quot;Python&quot;,&quot;modeName&quot;:&quot;python&quot;}">Substring found at index: 6</pre></div>
+
+
+
+<p>Many people asked questions about string contains in python. We will help you with the following list of frequently asked questions. This list contains some of the most common ways to do this in python, along with some quick comments and examples.</p>
+
+
+
+<h2 class="wp-block-heading">FAQ (Frequently asked questions): Check if a string contains a substring python</h2>
+
+
+
+<div class="schema-faq wp-block-yoast-faq-block"><div class="schema-faq-section" id="faq-question-1680973515585"><strong class="schema-faq-question">How to check if a string contains a newline (\n) in Python</strong> <p class="schema-faq-answer">To check if a string <strong>contains a newline</strong> (<code>\n</code>), we can use the <code>in</code> operator, which returns <code>True</code> if the newline is found in the string, and <code>False</code> otherwise. For instance: <code>print("\n" in "Hello\nWorld")</code> will print <code>True</code> while <code>print("\n" in "You and I")</code> prints False.<br/></p> </div> <div class="schema-faq-section" id="faq-question-1680976214137"><strong class="schema-faq-question">How to check if a string contains a number in Python</strong> <p class="schema-faq-answer">To check if a string contains <strong>at least a number (or a digit) regardless of characters</strong> and signs, we need to <code>import re</code> module first. Then pass the regex and the string as arguments of the <code>re.search()</code> method. Remember to check whether the method&#8217;s result <code>is not None</code>. Here is an example returning <code>True</code>: <code>(re.search('[0-9]', "-abc123") is not None)</code></p> </div> <div class="schema-faq-section" id="faq-question-1680974687452"><strong class="schema-faq-question">How to check if a string contains an element from a list in Python</strong> <p class="schema-faq-answer">To check if a string contains an element from a list, we can use a loop to iterate over the list and check each element using the <code>in</code> operator. Alternatively, we can use the <code>any()</code> function, which returns <code>True</code> if <strong>any element</strong> of the list satisfies, and <code>False</code> otherwise. Here is an example: <code>print(any(element in myString for element in myList))</code> </p> </div> <div class="schema-faq-section" id="faq-question-1680974694312"><strong class="schema-faq-question">How to check if a string contains a vowel in Python</strong> <p class="schema-faq-answer">To check if a string contains a vowel, we can use the <code>in</code> operator, but instead of using a list, we can use a <strong>set of vowels</strong>. A set is an unordered collection of unique elements that <strong>supports fast</strong> membership testing. For instance: <code>print(any(element in "Hello".lower() for element in {"a", "e", "i", "o", "u"}))</code> outputs <code>True</code>.</p> </div> <div class="schema-faq-section" id="faq-question-1680975461779"><strong class="schema-faq-question">How to check if a string does not contain a substring in Python</strong> <p class="schema-faq-answer">To check if a string does not contain a substring, we can use the <code>not</code> operator next to the <code>in</code> operator. This will return <code>True</code> if the substring is <strong>not in</strong> the string, and <code>False</code> otherwise. For example: <code>("world" not in "Hello")</code> will be <code>True</code> whereas <code>("Uniqwe" not in "CSE Uniqwe")</code> returns <code>False</code>.</p> </div> <div class="schema-faq-section" id="faq-question-1680977420971"><strong class="schema-faq-question">How to check if string contains substring case-insensitive in Python</strong> <p class="schema-faq-answer">The quickest way to check if a string contains a substring case-insensitive is to <strong>use either</strong> the <code>lower()</code> method or <code>upper()</code> method on both strings and then use the <code>in</code> operator to check it. Such <code>substring.lower() in string.lower()</code> or <code>"hello".upper() in "Hello World".upper()</code> is valid, while <code>substring.lower() in string.upper()</code> <strong>is wrong</strong> and always returns <code>False</code> <strong>if any alphabetical character appears</strong>.</p> </div> <div class="schema-faq-section" id="faq-question-1681008079447"><strong class="schema-faq-question">How to Check if string starts with substring using Regex in Python</strong> <p class="schema-faq-answer">One way to check if a string starts with a substring using regex is to <code>import re</code> module and add the <strong>preceding <code>'^'</code> anchor to the substring</strong> and pass it to the <code>re.match()</code> function. The expression <code>re.match("^" + substring, string)</code> or <code>re.match("^" + re.escape(substring), string)</code><strong> in the if statement will be <code>True</code> if satisfied</strong>, and <code>False</code> otherwise.</p> </div> <div class="schema-faq-section" id="faq-question-1681016014295"><strong class="schema-faq-question">How to Check if string ends with a substring using Regex in Python</strong> <p class="schema-faq-answer">One way to check if a string ends with a substring using regex is to use the <code>re.match()</code> function. First, <code>import re</code> module and <strong>add the <code>"$"</code> anchor to the end of the substring</strong>. For example: <code>re.match(substring + "$", string)</code> or <code>re.match(re.escape(substring) + "$", string)</code> will <strong>return None if not satisfied</strong>. Otherwise, it returns a Match object.</p> </div> <div class="schema-faq-section" id="faq-question-1681017152895"><strong class="schema-faq-question">How to Check if list of words exists in a String in Python</strong> <p class="schema-faq-answer">The one-line way to check if a list of words exists in a string is to use the <code>any()</code> function with a <code>for ... in ...</code> expression. For example: <code>any(word in string for word in wordList)</code>. The expression will returns <code>True</code> if there is a match. However, <strong>you can&#8217;t know how many matches</strong> are there if you use this approach.</p> </div> <div class="schema-faq-section" id="faq-question-1681018831072"><strong class="schema-faq-question">How to Count how many times a substring appears in a string in python</strong> <p class="schema-faq-answer">If you want to count the times of a substring in string Python, you can call the <code>count()</code> method on the full string. <strong>Remember to pass the substring to this method</strong>. For example: <code>"jolene jolene jolene jolene".count("jolene")</code> will return 4. If you  want to <strong>only count from position</strong> 7 to 20 (<a href="https://en.wikipedia.org/wiki/Zero-based_numbering">Zero-based</a>), just do like: <code>your_string.count(substring,7,20)</code></p> </div> </div>
+
+
+
+<h2 class="wp-block-heading">Conclusion</h2>
+
+
+
+<p>If you are new to Python, you should skip the questions asking about regex or regular expressions. Although it is more complex and error-prone, regex is a powerful and flexible way to deal with this. It is also recommended that you learn this concept in the future, when you are ready.</p>
+
+
+
+<p>We hope this list was helpful and funny. Remember, there is more than one way to do this, but some ways are better than others. Happy coding!</p>
+
+
+
+<p></p>
+<p>The post <a rel="nofollow" href="https://cse.uniqwe.com/check-if-a-string-contains-in-a-string-faq-in-python/">Check if a string contains in a string FAQ in Python</a> appeared first on <a rel="nofollow" href="https://cse.uniqwe.com/">Computer Science and Engineering</a>.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>How to remove an element from a list by index in Python</title>
+		<link>https://cse.uniqwe.com/how-to-remove-an-element-from-a-list-by-index-in-python/</link>
+		
+		<dc:creator><![CDATA[uniqwe]]></dc:creator>
+		<pubDate>Wed, 05 Apr 2023 07:33:03 +0000</pubDate>
+				<category><![CDATA[Python]]></category>
+		<category><![CDATA[Python list]]></category>
+		<guid isPermaLink="false">https://cse.uniqwe.com/?p=442</guid>
+
+					<description><![CDATA[<p>In this blog post, we will learn how to remove an element from a list by index in Python. A list is a mutable and ordered collection of items that can be of different types. An index is a numerical value that represents the position of an element in a list. The first element has&#8230;&#160;<a href="https://cse.uniqwe.com/how-to-remove-an-element-from-a-list-by-index-in-python/" class="" rel="bookmark">Read More &#187;<span class="screen-reader-text">How to remove an element from a list by index in Python</span></a></p>
+<p>The post <a rel="nofollow" href="https://cse.uniqwe.com/how-to-remove-an-element-from-a-list-by-index-in-python/">How to remove an element from a list by index in Python</a> appeared first on <a rel="nofollow" href="https://cse.uniqwe.com/">Computer Science and Engineering</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[
+<p>In this blog post, we will learn how to remove an element from a list by index in Python. A list is a mutable and ordered collection of items that can be of different types. An index is a numerical value that represents the position of an element in a list. The first element has an index of 0, the second element has an index of 1, and so on.</p>
+
+
+
+<h2 class="wp-block-heading">Use the pop() method:</h2>
+
+
+
+<p>This method takes an optional index as an argument and returns the element at that index after removing it from the list. If no index is given, it removes and returns the last element of the list. For example:</p>
+
+
+
+<div class="wp-block-codemirror-blocks-code-block code-block"><pre class="CodeMirror" data-setting="{&quot;mode&quot;:&quot;python&quot;,&quot;mime&quot;:&quot;text/x-python&quot;,&quot;theme&quot;:&quot;react&quot;,&quot;lineNumbers&quot;:true,&quot;styleActiveLine&quot;:true,&quot;lineWrapping&quot;:false,&quot;readOnly&quot;:true,&quot;hasCustomCSS&quot;:false,&quot;customCSS&quot;:&quot;&quot;,&quot;otterConditions&quot;:[],&quot;language&quot;:&quot;Python&quot;,&quot;modeName&quot;:&quot;python&quot;}"># create a list of fruits
+fruits = [&quot;apple&quot;, &quot;banana&quot;, &quot;cherry&quot;, &quot;date&quot;, &quot;elderberry&quot;]
+
+# remove and return the element at index 2
+fruit = fruits.pop(2)
+
+# print the removed element and the updated list
+print(fruit) # cherry
+print(fruits) # [&quot;apple&quot;, &quot;banana&quot;, &quot;date&quot;, &quot;elderberry&quot;]</pre></div>
+
+
+
+<p>This will remove the element at index 2 from fruits, assign it to the variable fruit, and print it. It will also shift the remaining elements to the left. Note that this will also modify the original list and return the removed element.</p>
+
+
+
+<h2 class="wp-block-heading">Use the del statement:</h2>
+
+
+
+<p>This <a href="https://www.w3schools.com/python/ref_keyword_del.asp">statement </a>deletes an element from a list by index without returning it. It can also delete a slice of elements from a list by specifying a range of indices. For example:</p>
+
+
+
+<div class="wp-block-codemirror-blocks-code-block code-block"><pre class="CodeMirror" data-setting="{&quot;mode&quot;:&quot;python&quot;,&quot;mime&quot;:&quot;text/x-python&quot;,&quot;theme&quot;:&quot;react&quot;,&quot;lineNumbers&quot;:true,&quot;styleActiveLine&quot;:true,&quot;lineWrapping&quot;:false,&quot;readOnly&quot;:true,&quot;hasCustomCSS&quot;:false,&quot;customCSS&quot;:&quot;&quot;,&quot;otterConditions&quot;:[],&quot;language&quot;:&quot;Python&quot;,&quot;modeName&quot;:&quot;python&quot;}"># create a list of numbers
+numbers = [1, 2, 3, 4, 5]
+
+# delete the element at index 3
+del numbers[3]
+
+# print the updated list
+print(numbers) # [1, 2, 3, 5]
+
+# delete the elements from index 1 to 3 (excluding 3)
+del numbers[1:3]
+
+# print the updated list
+print(numbers) # [1, 5]</pre></div>
+
+
+
+<p>The del statement is a way to delete an object from memory. You can use it to delete an element from a list by specifying its index. Both del and pop are useful ways to remove an element from a list by index in Python. However, they have some differences that you should be aware of. Here are some of them:</p>
+
+
+
+<ul>
+<li>del is faster than pop because it does not return anything.</li>
+
+
+
+<li>pop is safer than del because it does not raise an exception if the index is out of range. Instead, it returns None.</li>
+
+
+
+<li>del can delete multiple elements at once by using slicing. For example, del <code>fruits[1:3]</code> will delete the elements at indices 1 and 2 from fruits.</li>
+
+
+
+<li>pop can only delete one element at a time by using an integer index. For example, <code>fruits.pop(1:3)</code> will raise a TypeError because pop does not accept slices.</li>
+</ul>
+
+
+
+<h2 class="wp-block-heading">Use slicing:</h2>
+
+
+
+<p>A third way to remove an element from a list by index is to use slicing. Slicing is a technique that allows us to create a new list with a subset of elements from another list. We can use slicing to create a new list without the element at a given index by excluding that index from the slice range. For example, if we have a list of fruits:</p>
+
+
+
+<div class="wp-block-codemirror-blocks-code-block code-block"><pre class="CodeMirror" data-setting="{&quot;mode&quot;:&quot;python&quot;,&quot;mime&quot;:&quot;text/x-python&quot;,&quot;theme&quot;:&quot;react&quot;,&quot;lineNumbers&quot;:true,&quot;styleActiveLine&quot;:true,&quot;lineWrapping&quot;:false,&quot;readOnly&quot;:true,&quot;hasCustomCSS&quot;:false,&quot;customCSS&quot;:&quot;&quot;,&quot;otterConditions&quot;:[],&quot;language&quot;:&quot;Python&quot;,&quot;modeName&quot;:&quot;python&quot;}">fruits = ['apple', 'banana', 'cherry', 'date', 'elderberry']
+new_list = fruits[:3] + fruits[4:]
+print(new_list) # ['apple', 'banana', 'cherry', 'elderberry']</pre></div>
+
+
+
+<p>We can create a new list without the fourth element (&#8216;date&#8217;) by using<code> fruits[:3] + fruits[4:]</code>. This will concatenate two slices: one with all elements before index 3 (exclusive) and one with all elements after index 4 (inclusive). Here is a more general example with a given index to remove:</p>
+
+
+
+<div class="wp-block-codemirror-blocks-code-block code-block"><pre class="CodeMirror" data-setting="{&quot;mode&quot;:&quot;python&quot;,&quot;mime&quot;:&quot;text/x-python&quot;,&quot;theme&quot;:&quot;react&quot;,&quot;lineNumbers&quot;:true,&quot;styleActiveLine&quot;:true,&quot;lineWrapping&quot;:false,&quot;readOnly&quot;:true,&quot;hasCustomCSS&quot;:false,&quot;customCSS&quot;:&quot;&quot;,&quot;otterConditions&quot;:[],&quot;language&quot;:&quot;Python&quot;,&quot;modeName&quot;:&quot;python&quot;}">my_list = [1, 2, 3, 4, 5]
+index_to_remove = 2
+my_list = my_list[:index_to_remove] + my_list[index_to_remove+1:]
+print(my_list) #[1, 2, 4, 5]</pre></div>
+
+
+
+<h2 class="wp-block-heading">Use list comprehension</h2>
+
+
+
+<p>List comprehension is a concise way of creating a new list from an existing one by applying some condition or transformation on each element. The syntax is:</p>
+
+
+
+<p><code><strong>new_list </strong>= [<strong>expression </strong>for item in <strong>old_list </strong>if <strong>condition</strong>]</code></p>
+
+
+
+<p>where <strong>expression </strong>is any valid Python expression that defines how to transform each item in <strong>old_list</strong>, and <strong>condition </strong>is any valid Python expression that defines which items to include in <strong>new_list</strong>.</p>
+
+
+
+<p>For example, suppose you have a list of names. If you want to create a new list with only the names that start with A or E, you can use:</p>
+
+
+
+<div class="wp-block-codemirror-blocks-code-block code-block"><pre class="CodeMirror" data-setting="{&quot;mode&quot;:&quot;python&quot;,&quot;mime&quot;:&quot;text/x-python&quot;,&quot;theme&quot;:&quot;react&quot;,&quot;lineNumbers&quot;:true,&quot;styleActiveLine&quot;:true,&quot;lineWrapping&quot;:false,&quot;readOnly&quot;:true,&quot;hasCustomCSS&quot;:false,&quot;customCSS&quot;:&quot;&quot;,&quot;otterConditions&quot;:[],&quot;language&quot;:&quot;Python&quot;,&quot;modeName&quot;:&quot;python&quot;}">names = ['Alice', 'Bob', 'Charlie', 'David', 'Eve']
+new_names = [name for name in names if name.startswith ('A') or name.startswith ('E')]
+# ['Alice', 'Eve']</pre></div>
+
+
+
+<p>This method will create a new list as in the second line below.</p>
+
+
+
+<p>You can use list comprehension to create a new list with some elements removed based on their indices by using the enumerate () function. The enumerate () function adds a counter to an iterable object and returns an enumerate object that contains pairs of (index, item). The syntax is:</p>
+
+
+
+<p><code><strong>enumerate </strong>(<strong>iterable</strong>, <strong>start</strong>=0)</code></p>
+
+
+
+<p>where the <strong>iterable </strong>argument can be any object that supports iteration, such as a list, a tuple, a string, etc. The <strong>start </strong>argument is optional and specifies the starting value of the counter. By default, it is 0.</p>
+
+
+
+<p>The enumerate object can be converted to a list or a tuple using the list() or tuple() functions. Alternatively, you can loop over the enumerate object using a for loop.</p>
+
+
+
+<p>For example, suppose you have a list of fruits. You can use the enumerate() function to get an enumerate object that contains pairs of (index, fruit):</p>
+
+
+
+<div class="wp-block-codemirror-blocks-code-block code-block"><pre class="CodeMirror" data-setting="{&quot;mode&quot;:&quot;python&quot;,&quot;mime&quot;:&quot;text/x-python&quot;,&quot;theme&quot;:&quot;react&quot;,&quot;lineNumbers&quot;:true,&quot;styleActiveLine&quot;:true,&quot;lineWrapping&quot;:false,&quot;readOnly&quot;:true,&quot;hasCustomCSS&quot;:false,&quot;customCSS&quot;:&quot;&quot;,&quot;otterConditions&quot;:[],&quot;language&quot;:&quot;Python&quot;,&quot;modeName&quot;:&quot;python&quot;}">fruits = [&quot;apple&quot;, &quot;banana&quot;, &quot;cherry&quot;, &quot;date&quot;, &quot;elderberry&quot;]
+list(enumerate(fruits)) #[(0, 'apple'), (1, 'banana'), (2, 'cherry'), (3, 'date'), (4, 'elderberry')]</pre></div>
+
+
+
+<p>Now, you can use list comprehension to create a new list with some elements removed based on their indices. For example, you can remove every third element from the list by using the modulo operator (%) to check if the index is divisible by 3:</p>
+
+
+
+<div class="wp-block-codemirror-blocks-code-block code-block"><pre class="CodeMirror" data-setting="{&quot;mode&quot;:&quot;python&quot;,&quot;mime&quot;:&quot;text/x-python&quot;,&quot;theme&quot;:&quot;react&quot;,&quot;lineNumbers&quot;:true,&quot;styleActiveLine&quot;:true,&quot;lineWrapping&quot;:false,&quot;readOnly&quot;:true,&quot;hasCustomCSS&quot;:false,&quot;customCSS&quot;:&quot;&quot;,&quot;otterConditions&quot;:[],&quot;language&quot;:&quot;Python&quot;,&quot;modeName&quot;:&quot;python&quot;}">[fruit for index, fruit in enumerate(fruits) if index % 3 != 0] #['apple', 'banana', 'elderberry']</pre></div>
+
+
+
+<p>Or you can keep only the even-indexed elements by using the modulo operator (%) to check if the index is even:</p>
+
+
+
+<div class="wp-block-codemirror-blocks-code-block code-block"><pre class="CodeMirror" data-setting="{&quot;mode&quot;:&quot;python&quot;,&quot;mime&quot;:&quot;text/x-python&quot;,&quot;theme&quot;:&quot;react&quot;,&quot;lineNumbers&quot;:true,&quot;styleActiveLine&quot;:true,&quot;lineWrapping&quot;:false,&quot;readOnly&quot;:true,&quot;hasCustomCSS&quot;:false,&quot;customCSS&quot;:&quot;&quot;,&quot;otterConditions&quot;:[],&quot;language&quot;:&quot;Python&quot;,&quot;modeName&quot;:&quot;python&quot;}">[fruit for index, fruit in enumerate(fruits) if index % 2 == 0] #['apple', 'cherry', 'elderberry']</pre></div>
+
+
+
+<p>You can also use any other condition that involves the index to filter the list. For example, you can keep only the elements whose index is less than the length of the list divided by 2:</p>
+
+
+
+<div class="wp-block-codemirror-blocks-code-block code-block"><pre class="CodeMirror" data-setting="{&quot;mode&quot;:&quot;python&quot;,&quot;mime&quot;:&quot;text/x-python&quot;,&quot;theme&quot;:&quot;react&quot;,&quot;lineNumbers&quot;:true,&quot;styleActiveLine&quot;:true,&quot;lineWrapping&quot;:false,&quot;readOnly&quot;:true,&quot;hasCustomCSS&quot;:false,&quot;customCSS&quot;:&quot;&quot;,&quot;otterConditions&quot;:[],&quot;language&quot;:&quot;Python&quot;,&quot;modeName&quot;:&quot;python&quot;}">[fruit for index, fruit in enumerate(fruits) if index &lt; len(fruits) / 2] #['apple', 'banana']</pre></div>
+
+
+
+<h2 class="wp-block-heading">Summary</h2>
+
+
+
+<p>We have introduced some of the ways to remove an element from a list by index in Python. We hope you found this blog post helpful and informative. If you have any questions or feedback, please leave a comment below. Thank you for reading!</p>
+<p>The post <a rel="nofollow" href="https://cse.uniqwe.com/how-to-remove-an-element-from-a-list-by-index-in-python/">How to remove an element from a list by index in Python</a> appeared first on <a rel="nofollow" href="https://cse.uniqwe.com/">Computer Science and Engineering</a>.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+	</channel>
+</rss>

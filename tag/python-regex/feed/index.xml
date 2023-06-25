@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Python regex Archives - Computer Science and Engineering</title>
+	<atom:link href="https://cse.uniqwe.com/tag/python-regex/feed/" rel="self" type="application/rss+xml" />
+	<link>https://cse.uniqwe.com/tag/python-regex/</link>
+	<description>Uniqwe</description>
+	<lastBuildDate>Mon, 10 Apr 2023 03:16:44 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.2.2</generator>
+
+<image>
+	<url>https://cse.uniqwe.com/wp-content/uploads/2023/04/cropped-photo1679071723-32x32.png</url>
+	<title>Python regex Archives - Computer Science and Engineering</title>
+	<link>https://cse.uniqwe.com/tag/python-regex/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Check if a string contains in a string FAQ in Python</title>
+		<link>https://cse.uniqwe.com/check-if-a-string-contains-in-a-string-faq-in-python/</link>
+		
+		<dc:creator><![CDATA[uniqwe]]></dc:creator>
+		<pubDate>Sun, 09 Apr 2023 06:16:00 +0000</pubDate>
+				<category><![CDATA[Python]]></category>
+		<category><![CDATA[Python list]]></category>
+		<category><![CDATA[Python regex]]></category>
+		<category><![CDATA[Python strings]]></category>
+		<guid isPermaLink="false">https://cse.uniqwe.com/?p=494</guid>
+
+					<description><![CDATA[<p>Recall how to check if a string contains a substring in Python Check if a string contains another string: use the in operator or the find() method. The in operator checks if a substring is inside a larger string and returns True or False. The find() method returns the index of the first occurrence of&#8230;&#160;<a href="https://cse.uniqwe.com/check-if-a-string-contains-in-a-string-faq-in-python/" class="" rel="bookmark">Read More &#187;<span class="screen-reader-text">Check if a string contains in a string FAQ in Python</span></a></p>
+<p>The post <a rel="nofollow" href="https://cse.uniqwe.com/check-if-a-string-contains-in-a-string-faq-in-python/">Check if a string contains in a string FAQ in Python</a> appeared first on <a rel="nofollow" href="https://cse.uniqwe.com/">Computer Science and Engineering</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[
+<h2 class="wp-block-heading">Recall how to check if a string contains a substring in Python</h2>
+
+
+
+<p>Check if a string contains another string: use the <strong><code>in</code> </strong>operator or the <code><strong>find()</strong></code> method. The <strong><code>in</code> </strong>operator checks if a substring is inside a larger string and returns <code>True</code> or <code>False</code>. The <code><strong>find()</strong></code> method returns the index of the first occurrence of a substring within a larger string. If the substring is not found, it returns <code><strong>-1</strong></code>.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-full is-resized"><img decoding="async" src="https://cse.uniqwe.com/wp-content/uploads/2020/01/neve-web-design-bg-11.jpg" alt="programmers" class="wp-image-38" width="418" height="418" srcset="https://cse.uniqwe.com/wp-content/uploads/2020/01/neve-web-design-bg-11.jpg 600w, https://cse.uniqwe.com/wp-content/uploads/2020/01/neve-web-design-bg-11-300x300.jpg 300w, https://cse.uniqwe.com/wp-content/uploads/2020/01/neve-web-design-bg-11-150x150.jpg 150w" sizes="(max-width: 418px) 100vw, 418px" /></figure></div>
+
+
+<p>The below content is just a recall of how to do this, since we also have a blog about this subject before, you can read it <a href="https://cse.uniqwe.com/check-if-a-string-contains-a-substring-or-a-word-in-python/">here</a>. Below is an example of checking if the string &#8220;hello world&#8221; contains the string &#8220;hello&#8221; using the in operator :</p>
+
+
+
+<div class="wp-block-codemirror-blocks-code-block code-block"><pre class="CodeMirror" data-setting="{&quot;mode&quot;:&quot;python&quot;,&quot;mime&quot;:&quot;text/x-python&quot;,&quot;theme&quot;:&quot;react&quot;,&quot;lineNumbers&quot;:true,&quot;styleActiveLine&quot;:true,&quot;lineWrapping&quot;:false,&quot;readOnly&quot;:true,&quot;hasCustomCSS&quot;:false,&quot;customCSS&quot;:&quot;&quot;,&quot;otterConditions&quot;:[],&quot;language&quot;:&quot;Python&quot;,&quot;modeName&quot;:&quot;python&quot;}">my_string = &quot;hello world&quot;
+if &quot;hello&quot; in my_string:
+    print(&quot;Substring found!&quot;)
+else:
+    print(&quot;Substring not found.&quot;)</pre></div>
+
+
+
+<p>Output:</p>
+
+
+
+<div class="wp-block-codemirror-blocks-code-block code-block"><pre class="CodeMirror" data-setting="{&quot;mode&quot;:&quot;python&quot;,&quot;mime&quot;:&quot;text/x-python&quot;,&quot;theme&quot;:&quot;react&quot;,&quot;lineNumbers&quot;:true,&quot;styleActiveLine&quot;:true,&quot;lineWrapping&quot;:false,&quot;readOnly&quot;:true,&quot;languageLabel&quot;:&quot;no&quot;,&quot;hasCustomCSS&quot;:false,&quot;customCSS&quot;:&quot;&quot;,&quot;otterConditions&quot;:[],&quot;language&quot;:&quot;Python&quot;,&quot;modeName&quot;:&quot;python&quot;}">Substring found!</pre></div>
+
+
+
+<p>Here is an example of using the <code>find()</code> method to find the substring &#8220;world&#8221; in the string &#8220;hello world&#8221;:</p>
+
+
+
+<div class="wp-block-codemirror-blocks-code-block code-block"><pre class="CodeMirror" data-setting="{&quot;mode&quot;:&quot;python&quot;,&quot;mime&quot;:&quot;text/x-python&quot;,&quot;theme&quot;:&quot;react&quot;,&quot;lineNumbers&quot;:true,&quot;styleActiveLine&quot;:true,&quot;lineWrapping&quot;:false,&quot;readOnly&quot;:true,&quot;hasCustomCSS&quot;:false,&quot;customCSS&quot;:&quot;&quot;,&quot;otterConditions&quot;:[],&quot;language&quot;:&quot;Python&quot;,&quot;modeName&quot;:&quot;python&quot;}">my_string = &quot;hello world&quot;
+index = my_string.find(&quot;world&quot;)
+if index != -1:
+    print(&quot;Substring found at index:&quot;, index)
+else:
+    print(&quot;Substring not found.&quot;)</pre></div>
+
+
+
+<p>Output:</p>
+
+
+
+<div class="wp-block-codemirror-blocks-code-block code-block"><pre class="CodeMirror" data-setting="{&quot;mode&quot;:&quot;python&quot;,&quot;mime&quot;:&quot;text/x-python&quot;,&quot;theme&quot;:&quot;react&quot;,&quot;lineNumbers&quot;:true,&quot;styleActiveLine&quot;:true,&quot;lineWrapping&quot;:false,&quot;readOnly&quot;:true,&quot;languageLabel&quot;:&quot;no&quot;,&quot;hasCustomCSS&quot;:false,&quot;customCSS&quot;:&quot;&quot;,&quot;otterConditions&quot;:[],&quot;language&quot;:&quot;Python&quot;,&quot;modeName&quot;:&quot;python&quot;}">Substring found at index: 6</pre></div>
+
+
+
+<p>Many people asked questions about string contains in python. We will help you with the following list of frequently asked questions. This list contains some of the most common ways to do this in python, along with some quick comments and examples.</p>
+
+
+
+<h2 class="wp-block-heading">FAQ (Frequently asked questions): Check if a string contains a substring python</h2>
+
+
+
+<div class="schema-faq wp-block-yoast-faq-block"><div class="schema-faq-section" id="faq-question-1680973515585"><strong class="schema-faq-question">How to check if a string contains a newline (\n) in Python</strong> <p class="schema-faq-answer">To check if a string <strong>contains a newline</strong> (<code>\n</code>), we can use the <code>in</code> operator, which returns <code>True</code> if the newline is found in the string, and <code>False</code> otherwise. For instance: <code>print("\n" in "Hello\nWorld")</code> will print <code>True</code> while <code>print("\n" in "You and I")</code> prints False.<br/></p> </div> <div class="schema-faq-section" id="faq-question-1680976214137"><strong class="schema-faq-question">How to check if a string contains a number in Python</strong> <p class="schema-faq-answer">To check if a string contains <strong>at least a number (or a digit) regardless of characters</strong> and signs, we need to <code>import re</code> module first. Then pass the regex and the string as arguments of the <code>re.search()</code> method. Remember to check whether the method&#8217;s result <code>is not None</code>. Here is an example returning <code>True</code>: <code>(re.search('[0-9]', "-abc123") is not None)</code></p> </div> <div class="schema-faq-section" id="faq-question-1680974687452"><strong class="schema-faq-question">How to check if a string contains an element from a list in Python</strong> <p class="schema-faq-answer">To check if a string contains an element from a list, we can use a loop to iterate over the list and check each element using the <code>in</code> operator. Alternatively, we can use the <code>any()</code> function, which returns <code>True</code> if <strong>any element</strong> of the list satisfies, and <code>False</code> otherwise. Here is an example: <code>print(any(element in myString for element in myList))</code> </p> </div> <div class="schema-faq-section" id="faq-question-1680974694312"><strong class="schema-faq-question">How to check if a string contains a vowel in Python</strong> <p class="schema-faq-answer">To check if a string contains a vowel, we can use the <code>in</code> operator, but instead of using a list, we can use a <strong>set of vowels</strong>. A set is an unordered collection of unique elements that <strong>supports fast</strong> membership testing. For instance: <code>print(any(element in "Hello".lower() for element in {"a", "e", "i", "o", "u"}))</code> outputs <code>True</code>.</p> </div> <div class="schema-faq-section" id="faq-question-1680975461779"><strong class="schema-faq-question">How to check if a string does not contain a substring in Python</strong> <p class="schema-faq-answer">To check if a string does not contain a substring, we can use the <code>not</code> operator next to the <code>in</code> operator. This will return <code>True</code> if the substring is <strong>not in</strong> the string, and <code>False</code> otherwise. For example: <code>("world" not in "Hello")</code> will be <code>True</code> whereas <code>("Uniqwe" not in "CSE Uniqwe")</code> returns <code>False</code>.</p> </div> <div class="schema-faq-section" id="faq-question-1680977420971"><strong class="schema-faq-question">How to check if string contains substring case-insensitive in Python</strong> <p class="schema-faq-answer">The quickest way to check if a string contains a substring case-insensitive is to <strong>use either</strong> the <code>lower()</code> method or <code>upper()</code> method on both strings and then use the <code>in</code> operator to check it. Such <code>substring.lower() in string.lower()</code> or <code>"hello".upper() in "Hello World".upper()</code> is valid, while <code>substring.lower() in string.upper()</code> <strong>is wrong</strong> and always returns <code>False</code> <strong>if any alphabetical character appears</strong>.</p> </div> <div class="schema-faq-section" id="faq-question-1681008079447"><strong class="schema-faq-question">How to Check if string starts with substring using Regex in Python</strong> <p class="schema-faq-answer">One way to check if a string starts with a substring using regex is to <code>import re</code> module and add the <strong>preceding <code>'^'</code> anchor to the substring</strong> and pass it to the <code>re.match()</code> function. The expression <code>re.match("^" + substring, string)</code> or <code>re.match("^" + re.escape(substring), string)</code><strong> in the if statement will be <code>True</code> if satisfied</strong>, and <code>False</code> otherwise.</p> </div> <div class="schema-faq-section" id="faq-question-1681016014295"><strong class="schema-faq-question">How to Check if string ends with a substring using Regex in Python</strong> <p class="schema-faq-answer">One way to check if a string ends with a substring using regex is to use the <code>re.match()</code> function. First, <code>import re</code> module and <strong>add the <code>"$"</code> anchor to the end of the substring</strong>. For example: <code>re.match(substring + "$", string)</code> or <code>re.match(re.escape(substring) + "$", string)</code> will <strong>return None if not satisfied</strong>. Otherwise, it returns a Match object.</p> </div> <div class="schema-faq-section" id="faq-question-1681017152895"><strong class="schema-faq-question">How to Check if list of words exists in a String in Python</strong> <p class="schema-faq-answer">The one-line way to check if a list of words exists in a string is to use the <code>any()</code> function with a <code>for ... in ...</code> expression. For example: <code>any(word in string for word in wordList)</code>. The expression will returns <code>True</code> if there is a match. However, <strong>you can&#8217;t know how many matches</strong> are there if you use this approach.</p> </div> <div class="schema-faq-section" id="faq-question-1681018831072"><strong class="schema-faq-question">How to Count how many times a substring appears in a string in python</strong> <p class="schema-faq-answer">If you want to count the times of a substring in string Python, you can call the <code>count()</code> method on the full string. <strong>Remember to pass the substring to this method</strong>. For example: <code>"jolene jolene jolene jolene".count("jolene")</code> will return 4. If you  want to <strong>only count from position</strong> 7 to 20 (<a href="https://en.wikipedia.org/wiki/Zero-based_numbering">Zero-based</a>), just do like: <code>your_string.count(substring,7,20)</code></p> </div> </div>
+
+
+
+<h2 class="wp-block-heading">Conclusion</h2>
+
+
+
+<p>If you are new to Python, you should skip the questions asking about regex or regular expressions. Although it is more complex and error-prone, regex is a powerful and flexible way to deal with this. It is also recommended that you learn this concept in the future, when you are ready.</p>
+
+
+
+<p>We hope this list was helpful and funny. Remember, there is more than one way to do this, but some ways are better than others. Happy coding!</p>
+
+
+
+<p></p>
+<p>The post <a rel="nofollow" href="https://cse.uniqwe.com/check-if-a-string-contains-in-a-string-faq-in-python/">Check if a string contains in a string FAQ in Python</a> appeared first on <a rel="nofollow" href="https://cse.uniqwe.com/">Computer Science and Engineering</a>.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+	</channel>
+</rss>

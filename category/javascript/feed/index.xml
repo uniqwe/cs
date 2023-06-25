@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>JavaScript Archives - Computer Science and Engineering</title>
+	<atom:link href="https://cse.uniqwe.com/category/javascript/feed/" rel="self" type="application/rss+xml" />
+	<link>https://cse.uniqwe.com/category/javascript/</link>
+	<description>Uniqwe</description>
+	<lastBuildDate>Wed, 05 Apr 2023 02:01:11 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.2.2</generator>
+
+<image>
+	<url>https://cse.uniqwe.com/wp-content/uploads/2023/04/cropped-photo1679071723-32x32.png</url>
+	<title>JavaScript Archives - Computer Science and Engineering</title>
+	<link>https://cse.uniqwe.com/category/javascript/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>How to sort a Set in JavaScript</title>
+		<link>https://cse.uniqwe.com/how-to-sort-a-set-in-javascript/</link>
+		
+		<dc:creator><![CDATA[uniqwe]]></dc:creator>
+		<pubDate>Mon, 03 Apr 2023 16:38:23 +0000</pubDate>
+				<category><![CDATA[JavaScript]]></category>
+		<guid isPermaLink="false">https://cse.uniqwe.com/?p=363</guid>
+
+					<description><![CDATA[<p>A Set in JavaScript is a special kind of object that stores distinct elements. The set can store both primitive as well as objects. When iterating over the set object, it returns the elements in the same order as inserted. However, sets are not ordered abstract data structures, so there is no sort() method available&#8230;&#160;<a href="https://cse.uniqwe.com/how-to-sort-a-set-in-javascript/" class="" rel="bookmark">Read More &#187;<span class="screen-reader-text">How to sort a Set in JavaScript</span></a></p>
+<p>The post <a rel="nofollow" href="https://cse.uniqwe.com/how-to-sort-a-set-in-javascript/">How to sort a Set in JavaScript</a> appeared first on <a rel="nofollow" href="https://cse.uniqwe.com/">Computer Science and Engineering</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[
+<p>A Set in JavaScript is a special kind of object that stores distinct elements. The set can store both primitive as well as objects. When iterating over the set object, it returns the elements in the same order as inserted. However, sets are not ordered abstract data structures, so there is no sort() method available on them. So how can we sort a set in JavaScript according to the value of the elements?</p>
+
+
+
+<h2 class="wp-block-heading">Use the sort() method</h2>
+
+
+
+<p>One way of achieving this is to use the built-in <code>sort()</code> method of arrays. But, the <code>sort()</code> method can’t be directly implemented on sets, rather we need to convert the set into an array first, then sort the array, and then convert the array back to a set. This may sound complicated, but it&#8217;s actually quite simple with some JavaScript methods.</p>
+
+
+
+<p>Let&#8217;s see an example of how to do this. Suppose we have a set of numbers that we want to sort in ascending order:</p>
+
+
+
+<div class="wp-block-codemirror-blocks-code-block code-block"><pre class="CodeMirror" data-setting="{&quot;mode&quot;:&quot;javascript&quot;,&quot;mime&quot;:&quot;text/javascript&quot;,&quot;theme&quot;:&quot;react&quot;,&quot;lineNumbers&quot;:true,&quot;styleActiveLine&quot;:true,&quot;lineWrapping&quot;:false,&quot;readOnly&quot;:true,&quot;hasCustomCSS&quot;:false,&quot;customCSS&quot;:&quot;&quot;,&quot;otterConditions&quot;:[],&quot;language&quot;:&quot;JavaScript&quot;,&quot;modeName&quot;:&quot;js&quot;}">let mySet = new Set([3, 2, 9, 6]);
+console.log(mySet); // Set(4) {3, 2, 9, 6}</pre></div>
+
+
+
+<p>To convert the set into an array, we can use the <code>Array.from()</code> method, which creates a new array from an iterable object like a set:</p>
+
+
+
+<div class="wp-block-codemirror-blocks-code-block code-block"><pre class="CodeMirror" data-setting="{&quot;mode&quot;:&quot;javascript&quot;,&quot;mime&quot;:&quot;text/javascript&quot;,&quot;theme&quot;:&quot;react&quot;,&quot;lineNumbers&quot;:true,&quot;styleActiveLine&quot;:true,&quot;lineWrapping&quot;:false,&quot;readOnly&quot;:true,&quot;hasCustomCSS&quot;:false,&quot;customCSS&quot;:&quot;&quot;,&quot;otterConditions&quot;:[],&quot;language&quot;:&quot;JavaScript&quot;,&quot;modeName&quot;:&quot;js&quot;}">let myArray = Array.from(mySet);
+console.log(myArray); // [3, 2, 9, 6]</pre></div>
+
+
+
+<p>Now we can use the <code>sort()</code> method on the array to sort it in place. The <code>sort()</code> method takes an optional compare function that defines the sort order. If omitted, the array elements are converted to strings and sorted according to their Unicode code point values. For numbers, this may not give us the desired result, so we can provide a simple compare function that compares two numbers and returns a negative value if the first one is smaller than the second one, a positive value if the first one is larger than the second one, or zero if they are equal:</p>
+
+
+
+<div class="wp-block-codemirror-blocks-code-block code-block"><pre class="CodeMirror" data-setting="{&quot;mode&quot;:&quot;javascript&quot;,&quot;mime&quot;:&quot;text/javascript&quot;,&quot;theme&quot;:&quot;react&quot;,&quot;lineNumbers&quot;:true,&quot;styleActiveLine&quot;:true,&quot;lineWrapping&quot;:false,&quot;readOnly&quot;:true,&quot;hasCustomCSS&quot;:false,&quot;customCSS&quot;:&quot;&quot;,&quot;otterConditions&quot;:[],&quot;language&quot;:&quot;JavaScript&quot;,&quot;modeName&quot;:&quot;js&quot;}">myArray.sort((a, b) =&gt; a - b);
+console.log(myArray); // [2, 3, 6, 9]</pre></div>
+
+
+
+<p>Finally, we can convert the sorted array back to a set using the Set constructor, which takes an iterable object as an argument and creates a new set with its elements:</p>
+
+
+
+<div class="wp-block-codemirror-blocks-code-block code-block"><pre class="CodeMirror" data-setting="{&quot;mode&quot;:&quot;javascript&quot;,&quot;mime&quot;:&quot;text/javascript&quot;,&quot;theme&quot;:&quot;react&quot;,&quot;lineNumbers&quot;:true,&quot;styleActiveLine&quot;:true,&quot;lineWrapping&quot;:false,&quot;readOnly&quot;:true,&quot;hasCustomCSS&quot;:false,&quot;customCSS&quot;:&quot;&quot;,&quot;otterConditions&quot;:[],&quot;language&quot;:&quot;JavaScript&quot;,&quot;modeName&quot;:&quot;js&quot;}">mySet = new Set(myArray);
+console.log(mySet); // Set(4) {2, 3, 6, 9}</pre></div>
+
+
+
+<h2 class="wp-block-heading">Sort a set of strings using the localeCompare() method</h2>
+
+
+
+<p>And that&#8217;s it! We have successfully sorted a set in JavaScript using arrays. This method works for any type of elements that can be compared by a compare function. For example, if we have a set of strings that we want to sort alphabetically, we can use the same approach but with a different compare function that compares two strings lexicographically using the localeCompare() method:</p>
+
+
+
+<div class="wp-block-codemirror-blocks-code-block code-block"><pre class="CodeMirror" data-setting="{&quot;mode&quot;:&quot;javascript&quot;,&quot;mime&quot;:&quot;text/javascript&quot;,&quot;theme&quot;:&quot;react&quot;,&quot;lineNumbers&quot;:true,&quot;styleActiveLine&quot;:true,&quot;lineWrapping&quot;:false,&quot;readOnly&quot;:true,&quot;hasCustomCSS&quot;:false,&quot;customCSS&quot;:&quot;&quot;,&quot;otterConditions&quot;:[],&quot;language&quot;:&quot;JavaScript&quot;,&quot;modeName&quot;:&quot;js&quot;}">let mySet = new Set([&quot;banana&quot;, &quot;cherry&quot;, &quot;apple&quot;, &quot;orange&quot;]);
+console.log(mySet); // Set(4) {&quot;banana&quot;, &quot;cherry&quot;, &quot;apple&quot;, &quot;orange&quot;}
+
+let myArray = Array.from(mySet);
+console.log(myArray); // [&quot;banana&quot;, &quot;cherry&quot;, &quot;apple&quot;, &quot;orange&quot;]
+
+myArray.sort((a, b) =&gt; a.localeCompare(b));
+console.log(myArray); // [&quot;apple&quot;, &quot;banana&quot;, &quot;cherry&quot;, &quot;orange&quot;]
+
+mySet = new Set(myArray);
+console.log(mySet); // Set(4) {&quot;apple&quot;, &quot;banana&quot;, &quot;cherry&quot;, &quot;orange&quot;}</pre></div>
+
+
+
+<p>As you can see, sorting a set in JavaScript is not impossible, but it requires some extra steps and some knowledge of arrays and compare functions. Hopefully this blog post has helped you understand how to do it and why it works. Happy coding!</p>
+
+
+
+<p></p>
+<p>The post <a rel="nofollow" href="https://cse.uniqwe.com/how-to-sort-a-set-in-javascript/">How to sort a Set in JavaScript</a> appeared first on <a rel="nofollow" href="https://cse.uniqwe.com/">Computer Science and Engineering</a>.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+	</channel>
+</rss>

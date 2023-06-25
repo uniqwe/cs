@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Distributed database systems Archives - Computer Science and Engineering</title>
+	<atom:link href="https://cse.uniqwe.com/category/distributed-database-systems/feed/" rel="self" type="application/rss+xml" />
+	<link>https://cse.uniqwe.com/category/distributed-database-systems/</link>
+	<description>Uniqwe</description>
+	<lastBuildDate>Wed, 17 May 2023 03:42:49 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.2.2</generator>
+
+<image>
+	<url>https://cse.uniqwe.com/wp-content/uploads/2023/04/cropped-photo1679071723-32x32.png</url>
+	<title>Distributed database systems Archives - Computer Science and Engineering</title>
+	<link>https://cse.uniqwe.com/category/distributed-database-systems/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>What is distributed database systems</title>
+		<link>https://cse.uniqwe.com/what-is-distributed-database-systems/</link>
+		
+		<dc:creator><![CDATA[uniqwe]]></dc:creator>
+		<pubDate>Wed, 17 May 2023 03:40:26 +0000</pubDate>
+				<category><![CDATA[Distributed database systems]]></category>
+		<category><![CDATA[DDBS]]></category>
+		<guid isPermaLink="false">https://cse.uniqwe.com/?p=547</guid>
+
+					<description><![CDATA[<p>Hi there, welcome to our blog where we explain complex topics in simple terms. Today, we&#8217;re going to talk about distributed database systems, or DDBMS for short. If you don&#8217;t know what that is, don&#8217;t worry, We&#8217;ll give you some easy examples to understand. What is Distributed Database Systems First of all, what is a&#8230;&#160;<a href="https://cse.uniqwe.com/what-is-distributed-database-systems/" class="" rel="bookmark">Read More &#187;<span class="screen-reader-text">What is distributed database systems</span></a></p>
+<p>The post <a rel="nofollow" href="https://cse.uniqwe.com/what-is-distributed-database-systems/">What is distributed database systems</a> appeared first on <a rel="nofollow" href="https://cse.uniqwe.com/">Computer Science and Engineering</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[
+<p>Hi there, welcome to our blog where we explain complex topics in simple terms. Today, we&#8217;re going to talk about distributed database systems, or DDBMS for short. If you don&#8217;t know what that is, don&#8217;t worry, We&#8217;ll give you some easy examples to understand.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-full"><img decoding="async" width="600" height="600" src="https://cse.uniqwe.com/wp-content/uploads/2020/01/neve-web-design-bg-15.jpg" alt="distributed database" class="wp-image-42" srcset="https://cse.uniqwe.com/wp-content/uploads/2020/01/neve-web-design-bg-15.jpg 600w, https://cse.uniqwe.com/wp-content/uploads/2020/01/neve-web-design-bg-15-300x300.jpg 300w, https://cse.uniqwe.com/wp-content/uploads/2020/01/neve-web-design-bg-15-150x150.jpg 150w" sizes="(max-width: 600px) 100vw, 600px" /></figure></div>
+
+
+<h2 class="wp-block-heading">What is Distributed Database Systems</h2>
+
+
+
+<p>First of all, what is a database? A database is a collection of data that is organized and stored in a way that makes it easy to access and manipulate. For example, you might have a database of your contacts on your phone, where each contact has a name, a phone number, an email address, and so on.</p>
+
+
+
+<p>Now, what is a distributed database? A distributed database is a database that is split into two or more parts that are stored in different locations. For example, you might have a distributed database of your contacts, such as <a href="https://contacts.google.com/">Google Contacts</a>, where some of them are stored on your phone, some of them are stored on your laptop, and some of them are stored on your tablet.</p>
+
+
+
+<p>Why would you want to do that? Well, there are many reasons why distributed databases are useful. For example, they can improve performance by reducing the network traffic and allowing parallel processing. They can also improve availability by making sure that the data is still accessible even if one location fails. They can also reflect the organizational structure by allowing different sites to have more control over their own data.</p>
+
+
+
+<p>But how do you manage a distributed database? How do you make sure that the data is consistent and up-to-date across all locations? How do you query and update the data from different sites? And how to handle conflicts and failures? These are some of the challenges that distributed database systems face.</p>
+
+
+
+<h2 class="wp-block-heading">How to classify distributed database systems</h2>
+
+
+
+<p>There are different ways to classify distributed database systems based on how they handle these challenges. One way is based on the degree of similarity or difference among the data and the software at each location. If they are all the same, we call it a homogeneous distributed database system. If they are different, we call it a heterogeneous distributed database system.</p>
+
+
+
+<p>Another way is based on the degree of autonomy or dependence among the locations. If they are all independent and can operate without any coordination, we call it a federated distributed database system. If they are dependent and need some coordination, we call it a multidatabase system.</p>
+
+
+
+<p>A third way is based on the degree of replication or fragmentation of the data. Replication means that the same data is stored in various locations. Fragmentation means that different parts of the data are stored in different locations. Replication can improve availability and performance, but it can also increase the complexity of maintaining consistency. Fragmentation can reduce the complexity of maintaining consistency, but it can also increase the complexity of querying and updating.</p>
+
+
+
+<h2 class="wp-block-heading">Conclusion</h2>
+
+
+
+<p>There are also different models and architectures of distributed data processing that describe how the data and the processing are distributed across the locations. For example, there is the client-server model, where one location acts as a server that provides data and services to other locations that act as clients. There is also the peer-to-peer model, where each location acts as both a client and a server and can communicate with any other location.</p>
+
+
+
+<p>As you can see, distributed database systems are very interesting and complex topics that have many applications and challenges. I hope this blog post gave you some basic ideas about what they are and how they work. Thanks for reading and stay tuned for more!</p>
+<p>The post <a rel="nofollow" href="https://cse.uniqwe.com/what-is-distributed-database-systems/">What is distributed database systems</a> appeared first on <a rel="nofollow" href="https://cse.uniqwe.com/">Computer Science and Engineering</a>.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+	</channel>
+</rss>
